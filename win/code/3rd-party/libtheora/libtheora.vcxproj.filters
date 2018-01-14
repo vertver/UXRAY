@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\analyze.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\apiwrapper.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\bitpack.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\collect.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\decapiwrapper.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\decinfo.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\decode.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\dequant.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\encapiwrapper.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\encfrag.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\encinfo.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\encode.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\enquant.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\fdct.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\fragment.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\huffdec.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\huffenc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\idct.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\info.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\internal.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\mathops.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\mcenc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\quant.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\rate.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\state.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\tokenize.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\mmxencfrag.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\mmxfdct.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\mmxfrag.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\mmxidct.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\mmxstate.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\x86cpu.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\x86enc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\x86state.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\include\theora\codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\include\theora\theora.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\include\theora\theoradec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\include\theora\theoraenc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\apiwrapper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\bitpack.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\collect.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\dct.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\decint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\dequant.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\encint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\enquant.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\huffdec.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\huffenc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\huffman.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\mathops.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\modedec.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\ocintrin.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\quant.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\state.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\mmxloop.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\x86cpu.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\x86enc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\x86int.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\x86zigzag.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\3rd-party\libtheora\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{2BC299F2-9570-3C3F-AE5E-1AABBE4879FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{A90ADB9F-0E60-38AC-A933-E625587C875F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

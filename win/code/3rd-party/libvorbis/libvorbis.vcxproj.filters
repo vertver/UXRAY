@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\analysis.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\barkmel.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\bitrate.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\block.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\codebook.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\envelope.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\floor0.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\floor1.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\info.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\lookup.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\lpc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\lsp.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\mapping0.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\mdct.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\psy.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\registry.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\res0.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\sharedbook.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\smallft.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\synthesis.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\vorbisenc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\window.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\include\vorbis\codec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\include\vorbis\vorbisenc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\include\vorbis\vorbisfile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\backends.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\bitrate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\books\coupled\res_books_51.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\books\coupled\res_books_stereo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\books\floor\floor_books.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\books\uncoupled\res_books_uncoupled.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\codebook.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\codec_internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\envelope.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\highlevel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\lookup.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\lookup_data.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\lpc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\lsp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\masking.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\mdct.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\misc.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\floor_all.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\psych_11.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\psych_16.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\psych_44.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\psych_8.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\residue_16.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\residue_44.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\residue_44p51.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\residue_44u.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\residue_8.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_11.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_16.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_22.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_32.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_44.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_44p51.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_44u.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_8.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_X.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\os.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\psy.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\registry.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\scales.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\smallft.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\window.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\3rd-party\libvorbis\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{2BC299F2-9570-3C3F-AE5E-1AABBE4879FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{A90ADB9F-0E60-38AC-A933-E625587C875F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

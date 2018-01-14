@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{45A87243-541D-34CF-AC9F-EC4087839E7C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>libtheora</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\3rd-party\libtheora\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libtheora.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libtheora</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\3rd-party\libtheora\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libtheora.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libtheora</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\libtheora\include;E:\UXRAY_exp\code\3rd-party\libtheora\..\libogg\include;E:\UXRAY_exp\code\3rd-party\libogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await /permissive-</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4267;4057;4100;4245</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_BIND_TO_CURRENT_CRT_VERSION;LIBTHEORA_EXPORTS;OC_X86_ASM;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_BIND_TO_CURRENT_CRT_VERSION;LIBTHEORA_EXPORTS;OC_X86_ASM;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\libtheora\include;E:\UXRAY_exp\code\3rd-party\libtheora\..\libogg\include;E:\UXRAY_exp\code\3rd-party\libogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\libtheora\include;E:\UXRAY_exp\code\3rd-party\libtheora\..\libogg\include;E:\UXRAY_exp\code\3rd-party\libogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\libtheora\include;E:\UXRAY_exp\code\3rd-party\libtheora\..\libogg\include;E:\UXRAY_exp\code\3rd-party\libogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await /permissive-</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4244;4267;4057;4100;4245</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_BIND_TO_CURRENT_CRT_VERSION;LIBTHEORA_EXPORTS;OC_X86_ASM;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_BIND_TO_CURRENT_CRT_VERSION;LIBTHEORA_EXPORTS;OC_X86_ASM;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\libtheora\include;E:\UXRAY_exp\code\3rd-party\libtheora\..\libogg\include;E:\UXRAY_exp\code\3rd-party\libogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\libtheora\include;E:\UXRAY_exp\code\3rd-party\libtheora\..\libogg\include;E:\UXRAY_exp\code\3rd-party\libogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\3rd-party\libtheora\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/UXRAY_exp/code/3rd-party/libtheora/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/code/3rd-party/libtheora/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/code/3rd-party/libtheora/CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\libtheora\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\libtheora\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\3rd-party\libtheora\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/UXRAY_exp/code/3rd-party/libtheora/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/code/3rd-party/libtheora/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/code/3rd-party/libtheora/CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\libtheora\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\libtheora\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\3rd-party\libtheora\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\include\theora\codec.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\include\theora\theora.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\include\theora\theoradec.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\include\theora\theoraenc.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\analyze.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\apiwrapper.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\bitpack.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\collect.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\decapiwrapper.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\decinfo.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\decode.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\dequant.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\encapiwrapper.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\encfrag.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\encinfo.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\encode.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\enquant.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\fdct.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\fragment.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\huffdec.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\huffenc.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\idct.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\info.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\internal.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\mathops.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\mcenc.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\quant.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\rate.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\state.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\tokenize.c" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\apiwrapper.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\bitpack.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\collect.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\dct.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\decint.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\dequant.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\encint.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\enquant.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\huffdec.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\huffenc.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\huffman.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\internal.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\mathops.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\modedec.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\ocintrin.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\quant.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\state.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\mmxloop.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\x86cpu.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\x86enc.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\x86int.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\x86zigzag.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\mmxencfrag.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\mmxfdct.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\mmxfrag.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\mmxidct.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\mmxstate.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\x86cpu.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\x86enc.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libtheora\lib\x86_vc\x86state.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\UXRAY_exp\win\ZERO_CHECK.vcxproj">
+      <Project>{EF8DA05E-911F-3D8C-8BD2-B802AEE27239}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\libogg\libogg.vcxproj">
+      <Project>{C92FF9AF-54A6-3BE9-9298-6A0F8BEE136E}</Project>
+      <Name>libogg</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

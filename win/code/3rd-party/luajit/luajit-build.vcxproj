@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{45B327E0-C52A-3437-AAB9-9EA6D6FA72F4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>luajit-build</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\3rd-party\luajit\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/UXRAY_exp/code/3rd-party/luajit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/code/3rd-party/luajit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/code/3rd-party/luajit/CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\luajit\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\ExternalProject.cmake;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\tmp\luajit-build-cfgcmd.txt.in;E:\UXRAY_exp\code\3rd-party\luajit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/UXRAY_exp/code/3rd-party/luajit/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/code/3rd-party/luajit/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/code/3rd-party/luajit/CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\luajit\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\ExternalProject.cmake;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\tmp\luajit-build-cfgcmd.txt.in;E:\UXRAY_exp\code\3rd-party\luajit\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\ab3a45584e5288d3a81f5fe6c72fd4f1\luajit-build-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Creating directories for 'luajit-build'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/UXRAY_exp/code/3rd-party/luajit
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)/luajit-build-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Creating directories for 'luajit-build'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/UXRAY_exp/code/3rd-party/luajit
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)/luajit-build-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\ab3a45584e5288d3a81f5fe6c72fd4f1\luajit-build-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No download step for 'luajit-build'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)/luajit-build-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-download.rule;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No download step for 'luajit-build'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)/luajit-build-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-download.rule;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\ab3a45584e5288d3a81f5fe6c72fd4f1\luajit-build-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No update step for 'luajit-build'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)/luajit-build-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-update.rule;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No update step for 'luajit-build'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)/luajit-build-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-update.rule;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\ab3a45584e5288d3a81f5fe6c72fd4f1\luajit-build-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No patch step for 'luajit-build'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)/luajit-build-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-patch.rule;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No patch step for 'luajit-build'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)/luajit-build-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-patch.rule;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\ab3a45584e5288d3a81f5fe6c72fd4f1\luajit-build-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">No configure step for 'luajit-build'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)/luajit-build-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-configure.rule;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\tmp\luajit-build-cfgcmd.txt;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-update;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">No configure step for 'luajit-build'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)/luajit-build-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-configure.rule;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\tmp\luajit-build-cfgcmd.txt;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-update;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\ab3a45584e5288d3a81f5fe6c72fd4f1\luajit-build-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing build step for 'luajit-build'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+call E:\UXRAY_exp\win\code\3rd-party\luajit\x86\makeluajit.bat
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)/luajit-build-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-build.rule;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing build step for 'luajit-build'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+call E:\UXRAY_exp\win\code\3rd-party\luajit\x86\makeluajit.bat
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)/luajit-build-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-build.rule;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\ab3a45584e5288d3a81f5fe6c72fd4f1\luajit-build-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing install step for 'luajit-build'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/UXRAY_exp/code/3rd-party/luajit/src/lua51.dll "E:\SDK 0.7 Full Win32\X-Ray_CoP_SDK/bin/x86/Debug/lua51.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/UXRAY_exp/code/3rd-party/luajit/src/lua51.dll "E:\SDK 0.7 Full Win32\X-Ray_CoP_SDK/bin/x86/RelWithDebInfo/lua51.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/UXRAY_exp/code/3rd-party/luajit/src/lua51.lib E:/UXRAY_exp/win/code/3rd-party/luajit/x86/lua51.lib
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f E:/UXRAY_exp/code/3rd-party/luajit/src/lua51.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f E:/UXRAY_exp/code/3rd-party/luajit/src/lua51.lib
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f E:/UXRAY_exp/code/3rd-party/luajit/src/lj_bcdef.h
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f E:/UXRAY_exp/code/3rd-party/luajit/src/host/buildvm_arch.h
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)/luajit-build-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-install.rule;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Performing install step for 'luajit-build'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/UXRAY_exp/code/3rd-party/luajit/src/lua51.dll "E:\SDK 0.7 Full Win32\X-Ray_CoP_SDK/bin/x86/Debug/lua51.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/UXRAY_exp/code/3rd-party/luajit/src/lua51.dll "E:\SDK 0.7 Full Win32\X-Ray_CoP_SDK/bin/x86/RelWithDebInfo/lua51.dll"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/UXRAY_exp/code/3rd-party/luajit/src/lua51.lib E:/UXRAY_exp/win/code/3rd-party/luajit/x86/lua51.lib
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f E:/UXRAY_exp/code/3rd-party/luajit/src/lua51.dll
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f E:/UXRAY_exp/code/3rd-party/luajit/src/lua51.lib
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f E:/UXRAY_exp/code/3rd-party/luajit/src/lj_bcdef.h
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f E:/UXRAY_exp/code/3rd-party/luajit/src/host/buildvm_arch.h
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)/luajit-build-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-install.rule;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\e1aec64ca5ae349b7ba6d7df908600de\luajit-build-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Completed 'luajit-build'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/UXRAY_exp/win/code/3rd-party/luajit/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/CMakeFiles/$(Configuration)/luajit-build-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)/luajit-build-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/win/CMakeFiles/e1aec64ca5ae349b7ba6d7df908600de/luajit-build-complete.rule;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-install;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-mkdir;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-download;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-update;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-patch;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-configure;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-build;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\CMakeFiles\$(Configuration)\luajit-build-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Completed 'luajit-build'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/UXRAY_exp/win/code/3rd-party/luajit/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/CMakeFiles/$(Configuration)/luajit-build-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/src/luajit-build-stamp/$(Configuration)/luajit-build-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/win/CMakeFiles/e1aec64ca5ae349b7ba6d7df908600de/luajit-build-complete.rule;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-install;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-mkdir;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-download;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-update;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-patch;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-configure;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-build;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\src\luajit-build-stamp\$(Configuration)\luajit-build-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\CMakeFiles\$(Configuration)\luajit-build-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\b840f3acfa9bf5af868369530c7d68e2\luajit-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/win/CMakeFiles/b840f3acfa9bf5af868369530c7d68e2/luajit-build.rule;E:\UXRAY_exp\win\code\3rd-party\luajit\CMakeFiles\$(Configuration)\luajit-build-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\CMakeFiles\luajit-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/win/CMakeFiles/b840f3acfa9bf5af868369530c7d68e2/luajit-build.rule;E:\UXRAY_exp\win\code\3rd-party\luajit\CMakeFiles\$(Configuration)\luajit-build-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\3rd-party\luajit\CMakeFiles\luajit-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\UXRAY_exp\win\code\3rd-party\luajit\CMakeFiles\luajit-build" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\UXRAY_exp\win\ZERO_CHECK.vcxproj">
+      <Project>{EF8DA05E-911F-3D8C-8BD2-B802AEE27239}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

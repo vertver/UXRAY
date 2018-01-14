@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\class.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\class_info.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\class_registry.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\class_rep.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\create_class.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\error.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\find_best_match.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\function.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\implicit_cast.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\link_compatibility.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\object.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\object_rep.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\open.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\pcall.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\ref.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\scope.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\stack_content_by_name.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\weak_ref.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\wrapper_base.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind_memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\luabind_delete.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\luabind_memory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\luabind_memory_allocator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\luabind_memory_allocator_inline.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\luabind_memory_manager_generator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\luabind_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\adopt_policy.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\back_reference.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\back_reference_fwd.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\class.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\class_info.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\config.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\copy_policy.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\dependency_policy.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\discard_result_policy.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\error.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\function.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\functor.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\iterator_policy.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\lua_include.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\luabind.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\object.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\open.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\operator.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\out_value_policy.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\prefix.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\raw_policy.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\return_reference_to_policy.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\scope.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\weak_ref.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\wrapper_base.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\yield_policy.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\calc_arity.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\calc_has_arg.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\call.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\call_function.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\call_member.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\class_cache.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\class_registry.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\class_rep.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\class_rep_scope.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\construct_rep.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\constructor.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\convert_to_lua.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\debug.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\decorate_type.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\enum_maker.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\find_best_match.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\garbage_collector.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\get_overload_signature.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\get_signature.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\implicit_cast.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\is_indirect_const.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\link_compatibility.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\method_rep.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\object_funs.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\object_rep.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\open.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\operator_id.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\other.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\overload_rep.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\overload_rep_base.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\overload_rep_impl.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\pcall.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\pointee_sizeof.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\pointee_typeid.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\policy.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\policy_cons.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\primitives.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\property.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\ref.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\signature_match.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\stack_utils.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\typetraits.hpp">
+      <Filter>include\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\3rd-party\luabind\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4D498D7F-15FA-36A7-A01F-DBD9D90B04E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A3F09EEB-070A-3986-BCF9-E4679E3341E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{2BC299F2-9570-3C3F-AE5E-1AABBE4879FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{A90ADB9F-0E60-38AC-A933-E625587C875F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\detail">
+      <UniqueIdentifier>{874AB596-97DE-3F24-96DB-E79BE8929072}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

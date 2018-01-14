@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E9810857-F539-3069-9EBD-12FDBF158F08}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>luabind</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\SDK 0.7 Full Win32\X-Ray_CoP_SDK\bin\x86\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">luabind.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">luabind</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\SDK 0.7 Full Win32\X-Ray_CoP_SDK\bin\x86\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">luabind.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">luabind</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\luabind\luabind\include;E:\UXRAY_exp\code\3rd-party\luabind;E:\UXRAY_exp\code\3rd-party\luabind\..;E:\UXRAY_exp\code\3rd-party\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await /permissive-</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DEBUG;LUABIND_BUILDING;_SECURE_SCL=0;CMAKE_INTDIR="Debug";luabind_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DEBUG;LUABIND_BUILDING;_SECURE_SCL=0;CMAKE_INTDIR=\"Debug\";luabind_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\luabind\luabind\include;E:\UXRAY_exp\code\3rd-party\luabind;E:\UXRAY_exp\code\3rd-party\luabind\..;E:\UXRAY_exp\code\3rd-party\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\luabind\luabind\include;E:\UXRAY_exp\code\3rd-party\luabind;E:\UXRAY_exp\code\3rd-party\luabind\..;E:\UXRAY_exp\code\3rd-party\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\luajit\x86\lua51.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/UXRAY_exp/win/code/3rd-party/luabind/Debug/luabind.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>E:/SDK 0.7 Full Win32/X-Ray_CoP_SDK/pdb/x86/Debug/luabind.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\luabind\luabind\include;E:\UXRAY_exp\code\3rd-party\luabind;E:\UXRAY_exp\code\3rd-party\luabind\..;E:\UXRAY_exp\code\3rd-party\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await /permissive-</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4100</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;LUABIND_BUILDING;_SECURE_SCL=0;CMAKE_INTDIR="RelWithDebInfo";luabind_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;LUABIND_BUILDING;_SECURE_SCL=0;CMAKE_INTDIR=\"RelWithDebInfo\";luabind_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\luabind\luabind\include;E:\UXRAY_exp\code\3rd-party\luabind;E:\UXRAY_exp\code\3rd-party\luabind\..;E:\UXRAY_exp\code\3rd-party\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\luabind\luabind\include;E:\UXRAY_exp\code\3rd-party\luabind;E:\UXRAY_exp\code\3rd-party\luabind\..;E:\UXRAY_exp\code\3rd-party\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\luajit\x86\lua51.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/UXRAY_exp/win/code/3rd-party/luabind/RelWithDebInfo/luabind.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>E:/SDK 0.7 Full Win32/X-Ray_CoP_SDK/pdb/x86/RelWithDebInfo/luabind.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\3rd-party\luabind\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/UXRAY_exp/code/3rd-party/luabind/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/code/3rd-party/luabind/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/code/3rd-party/luabind/CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\luabind\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\luabind\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\3rd-party\luabind\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/UXRAY_exp/code/3rd-party/luabind/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/code/3rd-party/luabind/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/code/3rd-party/luabind/CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\luabind\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\luabind\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\3rd-party\luabind\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\luabind_delete.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\luabind_memory.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\luabind_memory_allocator.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\luabind_memory_allocator_inline.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\luabind_memory_manager_generator.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\luabind_types.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\adopt_policy.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\back_reference.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\back_reference_fwd.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\class.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\class_info.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\config.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\copy_policy.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\dependency_policy.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\discard_result_policy.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\error.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\function.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\functor.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\iterator_policy.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\lua_include.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\luabind.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\object.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\open.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\operator.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\out_value_policy.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\prefix.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\raw_policy.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\return_reference_to_policy.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\scope.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\weak_ref.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\wrapper_base.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\yield_policy.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\calc_arity.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\calc_has_arg.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\call.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\call_function.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\call_member.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\class_cache.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\class_registry.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\class_rep.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\class_rep_scope.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\construct_rep.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\constructor.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\convert_to_lua.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\debug.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\decorate_type.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\enum_maker.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\find_best_match.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\garbage_collector.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\get_overload_signature.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\get_signature.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\implicit_cast.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\is_indirect_const.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\link_compatibility.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\method_rep.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\object_funs.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\object_rep.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\open.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\operator_id.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\other.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\overload_rep.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\overload_rep_base.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\overload_rep_impl.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\pcall.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\pointee_sizeof.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\pointee_typeid.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\policy.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\policy_cons.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\primitives.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\property.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\ref.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\signature_match.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\stack_utils.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\include\luabind\detail\typetraits.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\class.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\class_info.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\class_registry.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\class_rep.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\create_class.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\error.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\find_best_match.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\function.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\implicit_cast.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\link_compatibility.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\object.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\object_rep.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\open.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\pcall.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\ref.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\scope.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\stack_content_by_name.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\weak_ref.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind\src\wrapper_base.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\luabind\pch.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\luabind_memory.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\luabind\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\UXRAY_exp\win\ZERO_CHECK.vcxproj">
+      <Project>{EF8DA05E-911F-3D8C-8BD2-B802AEE27239}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build.vcxproj">
+      <Project>{45B327E0-C52A-3437-AAB9-9EA6D6FA72F4}</Project>
+      <Name>luajit-build</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

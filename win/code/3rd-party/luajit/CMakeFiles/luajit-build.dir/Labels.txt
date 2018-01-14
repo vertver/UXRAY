@@ -1,0 +1,14 @@
+# Target labels
+ luajit-build
+# Source files and their labels
+E:/UXRAY_exp/win/code/3rd-party/luajit/CMakeFiles/luajit-build
+E:/UXRAY_exp/code/3rd-party/luajit/CMakeLists.txt
+E:/UXRAY_exp/win/CMakeFiles/b840f3acfa9bf5af868369530c7d68e2/luajit-build.rule
+E:/UXRAY_exp/win/CMakeFiles/e1aec64ca5ae349b7ba6d7df908600de/luajit-build-complete.rule
+E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-install.rule
+E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-mkdir.rule
+E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-download.rule
+E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-update.rule
+E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-patch.rule
+E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-configure.rule
+E:/UXRAY_exp/win/CMakeFiles/ab3a45584e5288d3a81f5fe6c72fd4f1/luajit-build-build.rule

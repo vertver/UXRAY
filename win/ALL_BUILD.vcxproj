@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6ADF8C3D-2E75-3604-AB5B-D0981095124E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/UXRAY_exp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/CMakeLists.txt;E:\UXRAY_exp\CMakeLists.txt;E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CMakeCCompiler.cmake;E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;E:\UXRAY_exp\code\engine\xr_config.h.in;E:\UXRAY_exp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/UXRAY_exp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/CMakeLists.txt;E:\UXRAY_exp\CMakeLists.txt;E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CMakeCCompiler.cmake;E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;E:\UXRAY_exp\code\engine\xr_config.h.in;E:\UXRAY_exp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\UXRAY_exp\win\ZERO_CHECK.vcxproj">
+      <Project>{EF8DA05E-911F-3D8C-8BD2-B802AEE27239}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\dxerr2015\dxerr2015.vcxproj">
+      <Project>{4A5D0240-67B7-3D48-8580-8E5DB2FDD0CC}</Project>
+      <Name>dxerr2015</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\libogg\libogg.vcxproj">
+      <Project>{C92FF9AF-54A6-3BE9-9298-6A0F8BEE136E}</Project>
+      <Name>libogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\libtheora\libtheora.vcxproj">
+      <Project>{45A87243-541D-34CF-AC9F-EC4087839E7C}</Project>
+      <Name>libtheora</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\libvorbis\libvorbis.vcxproj">
+      <Project>{85AC1446-5A17-3A9E-BC49-FE0A2219BAA6}</Project>
+      <Name>libvorbis</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\libvorbisfile\libvorbisfile.vcxproj">
+      <Project>{8F07A5B9-FB81-3122-9747-5EA1410DF3FA}</Project>
+      <Name>libvorbisfile</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\luabind\luabind.vcxproj">
+      <Project>{E9810857-F539-3069-9EBD-12FDBF158F08}</Project>
+      <Name>luabind</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build.vcxproj">
+      <Project>{45B327E0-C52A-3437-AAB9-9EA6D6FA72F4}</Project>
+      <Name>luajit-build</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\minizip\minizip.vcxproj">
+      <Project>{BEB1DD90-AAF9-3A96-A62E-693BA3C9F360}</Project>
+      <Name>minizip</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\ode\ode.vcxproj">
+      <Project>{30A0314E-C4DC-310C-B017-FC73F363E362}</Project>
+      <Name>ode</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\openal\openal32.vcxproj">
+      <Project>{BA51158F-7A5B-3CA7-BF6D-2216928C696D}</Project>
+      <Name>openal32</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrAPI\xrAPI.vcxproj">
+      <Project>{39C14EE6-45AC-3955-AB5C-FFF77039F4A7}</Project>
+      <Name>xrAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrCDB\xrCDB.vcxproj">
+      <Project>{0F9F58D4-3CAF-3655-87A4-14691B6117CB}</Project>
+      <Name>xrCDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrCPU_Pipe\xrCPU_Pipe.vcxproj">
+      <Project>{0AC491E8-A7E5-37BF-B222-1E527CE3C0B0}</Project>
+      <Name>xrCPU_Pipe</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrCore\xrCore.vcxproj">
+      <Project>{042014C9-99DC-3407-8846-089F7A9AB106}</Project>
+      <Name>xrCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrEngine\xrEngine.vcxproj">
+      <Project>{0ADC2E61-7ABD-3D04-A2E3-C6F0E9FF968F}</Project>
+      <Name>xrEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrGame\xrGame.vcxproj">
+      <Project>{F841ACA1-5B98-3E9D-8FE0-E7AE866311CD}</Project>
+      <Name>xrGame</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrNetServer\xrNetServer.vcxproj">
+      <Project>{C7FDBC8A-E5A0-342A-A337-B94EDFDDD16B}</Project>
+      <Name>xrNetServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrParticles\xrParticles.vcxproj">
+      <Project>{CF71FE72-8554-3090-BDE9-0563AEFB5C19}</Project>
+      <Name>xrParticles</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrPhysics\xrPhysics.vcxproj">
+      <Project>{18A3D482-EA33-3A41-842D-8EA2E5CFA23B}</Project>
+      <Name>xrPhysics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrRenderPC_R1\xrRender_R1.vcxproj">
+      <Project>{7B627603-979D-3B8D-8B5E-723ECDD34E62}</Project>
+      <Name>xrRender_R1</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrRenderPC_R2\xrRender_R2.vcxproj">
+      <Project>{66002D7B-231D-3821-AED8-2F8DACA3DCA8}</Project>
+      <Name>xrRender_R2</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrRenderPC_R3\xrRender_R3.vcxproj">
+      <Project>{1BA1B36C-C630-3330-AB68-AD7C64EED0F8}</Project>
+      <Name>xrRender_R3</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrRenderPC_R4\xrRender_R4.vcxproj">
+      <Project>{23505B9A-700C-3144-9E2B-AA3801B176DF}</Project>
+      <Name>xrRender_R4</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrSound\xrSound.vcxproj">
+      <Project>{E5ABB1E3-F287-3EBF-9D50-94D8961EFB62}</Project>
+      <Name>xrSound</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrXMLParser\xrXMLParser.vcxproj">
+      <Project>{27C42B97-7F50-36C2-B70C-EB40C040CBA5}</Project>
+      <Name>xrXMLParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\ZLib\zlib.vcxproj">
+      <Project>{BA9A8004-7A84-3AC7-9506-C23EF1A7FA51}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

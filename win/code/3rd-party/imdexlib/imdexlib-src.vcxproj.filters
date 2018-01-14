@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\3rd-party\imdexlib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\UXRAY_exp\code\3rd-party\imdexlib\array_view.hpp">
+      <Filter>include</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\imdexlib\empty_type.hpp">
+      <Filter>include</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\imdexlib\fast_dynamic_cast.hpp">
+      <Filter>include</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\imdexlib\flag_set.hpp">
+      <Filter>include</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\imdexlib\flat_map.hpp">
+      <Filter>include</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\imdexlib\identity.hpp">
+      <Filter>include</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\imdexlib\is_reference_wrapper.hpp">
+      <Filter>include</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\imdexlib\mpl.hpp">
+      <Filter>include</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\imdexlib\option.hpp">
+      <Filter>include</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\imdexlib\preprocessor.hpp">
+      <Filter>include</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\imdexlib\scope_guard.hpp">
+      <Filter>include</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\imdexlib\string_ref.hpp">
+      <Filter>include</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\imdexlib\traits.hpp">
+      <Filter>include</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\imdexlib\typelist.hpp">
+      <Filter>include</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\imdexlib\uncaught_exceptions_counter.hpp">
+      <Filter>include</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\imdexlib\utility.hpp">
+      <Filter>include</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{2BC299F2-9570-3C3F-AE5E-1AABBE4879FD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{85AC1446-5A17-3A9E-BC49-FE0A2219BAA6}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>libvorbis</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\3rd-party\libvorbis\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libvorbis.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libvorbis</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\3rd-party\libvorbis\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libvorbis.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libvorbis</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\libvorbis\..\libogg\include;E:\UXRAY_exp\code\3rd-party\libogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await /permissive-</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4244;4100;4267;4189;4305;4127;4706</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LIBVORBIS_EXPORTS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;LIBVORBIS_EXPORTS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\libvorbis\..\libogg\include;E:\UXRAY_exp\code\3rd-party\libogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\libvorbis\..\libogg\include;E:\UXRAY_exp\code\3rd-party\libogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\libvorbis\..\libogg\include;E:\UXRAY_exp\code\3rd-party\libogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await /permissive-</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4244;4100;4267;4189;4305;4127;4706</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIBVORBIS_EXPORTS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LIBVORBIS_EXPORTS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\libvorbis\..\libogg\include;E:\UXRAY_exp\code\3rd-party\libogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\libvorbis\..\libogg\include;E:\UXRAY_exp\code\3rd-party\libogg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\3rd-party\libvorbis\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/UXRAY_exp/code/3rd-party/libvorbis/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/code/3rd-party/libvorbis/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/code/3rd-party/libvorbis/CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\libvorbis\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\libvorbis\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\3rd-party\libvorbis\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/UXRAY_exp/code/3rd-party/libvorbis/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/code/3rd-party/libvorbis/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/code/3rd-party/libvorbis/CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\libvorbis\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\libvorbis\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\3rd-party\libvorbis\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\include\vorbis\codec.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\include\vorbis\vorbisenc.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\include\vorbis\vorbisfile.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\analysis.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\barkmel.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\bitrate.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\block.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\codebook.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\envelope.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\floor0.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\floor1.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\info.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\lookup.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\lpc.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\lsp.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\mapping0.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\mdct.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\psy.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\registry.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\res0.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\sharedbook.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\smallft.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\synthesis.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\vorbisenc.c" />
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\window.c" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\backends.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\bitrate.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\books\coupled\res_books_51.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\books\coupled\res_books_stereo.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\books\floor\floor_books.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\books\uncoupled\res_books_uncoupled.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\codebook.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\codec_internal.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\envelope.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\highlevel.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\lookup.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\lookup_data.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\lpc.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\lsp.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\masking.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\mdct.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\misc.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\floor_all.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\psych_11.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\psych_16.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\psych_44.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\psych_8.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\residue_16.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\residue_44.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\residue_44p51.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\residue_44u.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\residue_8.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_11.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_16.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_22.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_32.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_44.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_44p51.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_44u.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_8.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\modes\setup_X.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\os.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\psy.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\registry.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\scales.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\smallft.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\libvorbis\lib\window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\UXRAY_exp\win\ZERO_CHECK.vcxproj">
+      <Project>{EF8DA05E-911F-3D8C-8BD2-B802AEE27239}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\libogg\libogg.vcxproj">
+      <Project>{C92FF9AF-54A6-3BE9-9298-6A0F8BEE136E}</Project>
+      <Name>libogg</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

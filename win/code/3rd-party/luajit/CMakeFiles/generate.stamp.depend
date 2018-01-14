@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+E:/UXRAY_exp/code/3rd-party/luajit/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-3.10/Modules/ExternalProject.cmake
+E:/UXRAY_exp/win/code/3rd-party/luajit/luajit-build-prefix/tmp/luajit-build-cfgcmd.txt.in

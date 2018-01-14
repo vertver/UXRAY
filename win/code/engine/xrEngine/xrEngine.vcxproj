@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0ADC2E61-7ABD-3D04-A2E3-C6F0E9FF968F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>xrEngine</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\SDK 0.7 Full Win32\X-Ray_CoP_SDK\bin\x86\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">xrEngine.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">xrEngine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\SDK 0.7 Full Win32\X-Ray_CoP_SDK\bin\x86\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">xrEngine.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">xrEngine</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\dxsdk\include;E:\UXRAY_exp\code\engine\xrEngine;E:\UXRAY_exp\code\3rd-party\libogg\include;E:\UXRAY_exp\code\3rd-party\libtheora\include;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\openal\include;E:\UXRAY_exp\code\3rd-party\luabind\luabind\include;E:\UXRAY_exp\code\3rd-party\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await /permissive-</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DEBUG;ENGINE_BUILD;_SECURE_SCL=0;FMT_HEADER_ONLY=1;CMAKE_INTDIR="Debug";xrEngine_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DEBUG;ENGINE_BUILD;_SECURE_SCL=0;FMT_HEADER_ONLY=1;CMAKE_INTDIR=\"Debug\";xrEngine_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\dxsdk\include;E:\UXRAY_exp\code\engine\xrEngine;E:\UXRAY_exp\code\3rd-party\libogg\include;E:\UXRAY_exp\code\3rd-party\libtheora\include;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\openal\include;E:\UXRAY_exp\code\3rd-party\luabind\luabind\include;E:\UXRAY_exp\code\3rd-party\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\dxsdk\include;E:\UXRAY_exp\code\engine\xrEngine;E:\UXRAY_exp\code\3rd-party\libogg\include;E:\UXRAY_exp\code\3rd-party\libtheora\include;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\openal\include;E:\UXRAY_exp\code\3rd-party\luabind\luabind\include;E:\UXRAY_exp\code\3rd-party\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>vfw32.lib;..\..\3rd-party\libogg\Debug\libogg.lib;..\..\3rd-party\libtheora\Debug\libtheora.lib;d3dx9.lib;d3d9.lib;dinput8.lib;dxguid.lib;shlwapi.lib;..\xrSound\Debug\xrSound.lib;..\xrNetServer\Debug\xrNetServer.lib;winmm.lib;..\..\3rd-party\luabind\Debug\luabind.lib;..\xrCDB\Debug\xrCDB.lib;..\xrAPI\Debug\xrAPI.lib;..\..\3rd-party\libvorbisfile\Debug\libvorbisfile.lib;..\..\3rd-party\libvorbis\Debug\libvorbis.lib;..\..\3rd-party\libogg\Debug\libogg.lib;..\..\3rd-party\openal\Debug\openal32.lib;dsound.lib;dxguid.lib;..\xrCore\Debug\xrCore.lib;version.lib;dbghelp.lib;winmm.lib;faultrep.lib;psapi.lib;..\..\3rd-party\dxerr2015\Debug\dxerr2015.lib;ws2_32.lib;..\..\3rd-party\luajit\x86\lua51.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/UXRAY_exp/code/3rd-party/dxsdk/lib/x86;E:/UXRAY_exp/code/3rd-party/dxsdk/lib/x86/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/UXRAY_exp/win/code/engine/xrEngine/Debug/xrEngine.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>E:/SDK 0.7 Full Win32/X-Ray_CoP_SDK/pdb/x86/Debug/xrEngine.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>E:\UXRAY_exp\code\engine\xrEngine\xrEngine.manifest;</AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\dxsdk\include;E:\UXRAY_exp\code\engine\xrEngine;E:\UXRAY_exp\code\3rd-party\libogg\include;E:\UXRAY_exp\code\3rd-party\libtheora\include;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\openal\include;E:\UXRAY_exp\code\3rd-party\luabind\luabind\include;E:\UXRAY_exp\code\3rd-party\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await /permissive-</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;ENGINE_BUILD;_SECURE_SCL=0;FMT_HEADER_ONLY=1;CMAKE_INTDIR="RelWithDebInfo";xrEngine_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;ENGINE_BUILD;_SECURE_SCL=0;FMT_HEADER_ONLY=1;CMAKE_INTDIR=\"RelWithDebInfo\";xrEngine_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\dxsdk\include;E:\UXRAY_exp\code\engine\xrEngine;E:\UXRAY_exp\code\3rd-party\libogg\include;E:\UXRAY_exp\code\3rd-party\libtheora\include;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\openal\include;E:\UXRAY_exp\code\3rd-party\luabind\luabind\include;E:\UXRAY_exp\code\3rd-party\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\3rd-party\dxsdk\include;E:\UXRAY_exp\code\engine\xrEngine;E:\UXRAY_exp\code\3rd-party\libogg\include;E:\UXRAY_exp\code\3rd-party\libtheora\include;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\openal\include;E:\UXRAY_exp\code\3rd-party\luabind\luabind\include;E:\UXRAY_exp\code\3rd-party\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>vfw32.lib;..\..\3rd-party\libogg\RelWithDebInfo\libogg.lib;..\..\3rd-party\libtheora\RelWithDebInfo\libtheora.lib;d3dx9.lib;d3d9.lib;dinput8.lib;dxguid.lib;shlwapi.lib;..\xrSound\RelWithDebInfo\xrSound.lib;..\xrNetServer\RelWithDebInfo\xrNetServer.lib;winmm.lib;..\..\3rd-party\luabind\RelWithDebInfo\luabind.lib;..\xrCDB\RelWithDebInfo\xrCDB.lib;..\xrAPI\RelWithDebInfo\xrAPI.lib;..\..\3rd-party\libvorbisfile\RelWithDebInfo\libvorbisfile.lib;..\..\3rd-party\libvorbis\RelWithDebInfo\libvorbis.lib;..\..\3rd-party\libogg\RelWithDebInfo\libogg.lib;..\..\3rd-party\openal\RelWithDebInfo\openal32.lib;dsound.lib;dxguid.lib;..\xrCore\RelWithDebInfo\xrCore.lib;version.lib;dbghelp.lib;winmm.lib;faultrep.lib;psapi.lib;..\..\3rd-party\dxerr2015\RelWithDebInfo\dxerr2015.lib;ws2_32.lib;..\..\3rd-party\luajit\x86\lua51.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/UXRAY_exp/code/3rd-party/dxsdk/lib/x86;E:/UXRAY_exp/code/3rd-party/dxsdk/lib/x86/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/UXRAY_exp/win/code/engine/xrEngine/RelWithDebInfo/xrEngine.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>E:/SDK 0.7 Full Win32/X-Ray_CoP_SDK/pdb/x86/RelWithDebInfo/xrEngine.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Manifest>
+      <AdditionalManifestFiles>E:\UXRAY_exp\code\engine\xrEngine\xrEngine.manifest;</AdditionalManifestFiles>
+    </Manifest>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\engine\xrEngine\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/UXRAY_exp/code/engine/xrEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/code/engine/xrEngine/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/code/engine/xrEngine/CMakeLists.txt;E:\UXRAY_exp\code\engine\xrEngine\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrEngine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\engine\xrEngine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/UXRAY_exp/code/engine/xrEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/code/engine/xrEngine/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/code/engine/xrEngine/CMakeLists.txt;E:\UXRAY_exp\code\engine\xrEngine\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrEngine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\engine\xrEngine\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IGame_ObjectPool.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IGame_Persistent.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\pure_relcase.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xr_object.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xr_object_list.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\IGame_ObjectPool.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\pure_relcase.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xr_object.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xr_object_list.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IRenderable.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Render.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\IRenderable.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Render.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_manager.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_manager.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\line_edit_control.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\line_edit_control.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Fmesh.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\fmesh.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\device.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\StatGraph.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Stats.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\device.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Device_create.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Device_destroy.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Device_Initialize.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Device_Misc.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Device_overdraw.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Device_wndproc.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\StatGraph.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Stats.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IInputReceiver.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xr_input.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xr_input_xinput.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\IInputReceiver.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Xr_input.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xr_input_xinput.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_flares.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_flares.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Properties.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\pure.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\std_classes.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\pure.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_manager.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_manager.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_ambients_effect_id.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_ambients_effect_id.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\CameraBase.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\CameraDefs.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\CameraManager.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Effector.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\EffectorPP.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\CameraBase.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\CameraManager.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Effector.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\EffectorPP.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\_d3d_extensions.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\dedicated_server_only.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\defines.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\mp_logging.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\stdafx.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\x_ray.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\defines.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\x_ray.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\ICollidable.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\ICollidable.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_weathers_weather.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_weathers_weather.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\bone.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\envelope.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\motion.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\ObjectAnimator.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\bone.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Envelope.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\interp.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\motion.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\ObjectAnimator.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\edit_actions.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\edit_actions.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_effects_effect.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_effects_effect.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_sound_channels_channel.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_sound_channels_channel.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\line_editor.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\line_editor.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Feel_Sound.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Feel_Touch.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Feel_Vision.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Feel_Touch.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Feel_Vision.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Shader_xrLC.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\WaveForm.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_manager.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_manager.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_blend.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_blend.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\perlin.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\perlin.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_sound_channels_source.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_sound_channels_source.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\PS_instance.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\PS_instance.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_gradient.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_gradient.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\resource.h" />
+    <ResourceCompile Include="E:\UXRAY_exp\code\engine\xrEngine\resource.rc" />
+    <None Include="E:\UXRAY_exp\code\engine\xrEngine\splash_xrcs_en.bmp" />
+    <None Include="E:\UXRAY_exp\code\engine\xrEngine\stalker_cs.ico" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_thunderbolt_id.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_thunderbolt_id.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Rain.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\thunderbolt.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xr_efflensflare.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Rain.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\thunderbolt.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xr_efflensflare.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\vis_common.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_sun.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_sun.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Environment.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xrHemisphere.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Environment.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Environment_misc.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Environment_render.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xrHemisphere.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_weathers_manager.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_weathers_manager.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\cf_dynamic_mesh.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xr_collide_form.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\cf_dynamic_mesh.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xr_collide_form.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_collection.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_collection.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\LightAnimLibrary.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\LightAnimLibrary.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_sound_channels_manager.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_sound_channels_manager.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_weathers_time.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_weathers_time.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\CustomHUD.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\CustomHUD.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\XR_IOConsole.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\XR_IOConsole.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\XR_IOConsole_callback.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\XR_IOConsole_control.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\XR_IOConsole_get.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\ai_script_lua_extension.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\ai_script_lua_space.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\ai_script_space.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\ai_script_lua_debug.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\ai_script_lua_extension.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_ambients_sound_id.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_ambients_sound_id.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Text_Console.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Text_Console.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Text_Console_WndProc.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_levels_manager.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_levels_manager.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Engine.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\EngineAPI.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\EventAPI.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Engine.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\EngineAPI.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\EventAPI.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\mailSlot.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_detail.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_detail.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\engine_impl.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\engine_impl.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_effects_manager.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_effects_manager.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\cl_intersect.h" />
+    <None Include="E:\UXRAY_exp\code\engine\xrEngine\ClientServer.txt" />
+    <None Include="E:\UXRAY_exp\code\engine\xrEngine\Effects description.txt" />
+    <None Include="E:\UXRAY_exp\code\engine\xrEngine\features.txt" />
+    <None Include="E:\UXRAY_exp\code\engine\xrEngine\TODO.txt" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_ambients_ambient.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_ambients_ambient.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\GameMtlLib.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\GameMtlLib.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\GameMtlLib_Engine.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\doug_lea_memory_allocator.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\doug_lea_memory_allocator.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\FDemoPlay.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\FDemoRecord.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\FDemoPlay.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\FDemoRecord.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_ambients_manager.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_ambients_manager.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\SkeletonMotionDefs.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\SkeletonMotions.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\SkeletonMotions.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_thunderbolt.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_thunderbolt.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IGame_Level.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xrLevel.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\IGame_Level.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\IGame_Level_check_textures.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\IGame_Persistent.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\ide.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_flare.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_flare.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_gradient.hpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_gradient.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\ObjectDump.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\ObjectDump.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xr_ioc_cmd.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xr_ioc_cmd.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\tntQAVI.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xrImage_Resampler.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xrTheora_Stream.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xrTheora_Surface.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\tntQAVI.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xrImage_Resampler.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xrTheora_Stream.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xrTheora_Surface.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IObjectPhysicsCollision.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IPHdebug.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IPhysicsGeometry.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IPhysicsShell.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\phdebug.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\GameFont.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\MbHelpers.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\GameFont.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\MbHelpers.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\property_collection.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\property_collection_forward.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\property_collection_inline.hpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\ISheduled.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xrSheduler.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\ISheduled.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xrSheduler.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\EnnumerateVertices.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\UXRAY_exp\win\ZERO_CHECK.vcxproj">
+      <Project>{EF8DA05E-911F-3D8C-8BD2-B802AEE27239}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\dxerr2015\dxerr2015.vcxproj">
+      <Project>{4A5D0240-67B7-3D48-8580-8E5DB2FDD0CC}</Project>
+      <Name>dxerr2015</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\libogg\libogg.vcxproj">
+      <Project>{C92FF9AF-54A6-3BE9-9298-6A0F8BEE136E}</Project>
+      <Name>libogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\libtheora\libtheora.vcxproj">
+      <Project>{45A87243-541D-34CF-AC9F-EC4087839E7C}</Project>
+      <Name>libtheora</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\libvorbis\libvorbis.vcxproj">
+      <Project>{85AC1446-5A17-3A9E-BC49-FE0A2219BAA6}</Project>
+      <Name>libvorbis</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\libvorbisfile\libvorbisfile.vcxproj">
+      <Project>{8F07A5B9-FB81-3122-9747-5EA1410DF3FA}</Project>
+      <Name>libvorbisfile</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\luabind\luabind.vcxproj">
+      <Project>{E9810857-F539-3069-9EBD-12FDBF158F08}</Project>
+      <Name>luabind</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build.vcxproj">
+      <Project>{45B327E0-C52A-3437-AAB9-9EA6D6FA72F4}</Project>
+      <Name>luajit-build</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\openal\openal32.vcxproj">
+      <Project>{BA51158F-7A5B-3CA7-BF6D-2216928C696D}</Project>
+      <Name>openal32</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrAPI\xrAPI.vcxproj">
+      <Project>{39C14EE6-45AC-3955-AB5C-FFF77039F4A7}</Project>
+      <Name>xrAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrCDB\xrCDB.vcxproj">
+      <Project>{0F9F58D4-3CAF-3655-87A4-14691B6117CB}</Project>
+      <Name>xrCDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrCore\xrCore.vcxproj">
+      <Project>{042014C9-99DC-3407-8846-089F7A9AB106}</Project>
+      <Name>xrCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrNetServer\xrNetServer.vcxproj">
+      <Project>{C7FDBC8A-E5A0-342A-A337-B94EDFDDD16B}</Project>
+      <Name>xrNetServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrSound\xrSound.vcxproj">
+      <Project>{E5ABB1E3-F287-3EBF-9D50-94D8961EFB62}</Project>
+      <Name>xrSound</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

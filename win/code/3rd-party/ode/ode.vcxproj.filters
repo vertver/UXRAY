@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\Bounder33.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\StepJointInternal.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\array.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\collision_kernel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\collision_quadtreespace.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\collision_space.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\collision_std.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\collision_transform.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\collision_util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\error.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\export-dif.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\joint.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\lcp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\mass.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\mat.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\matrix.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\memory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\misc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\obstack.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\ode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\odemath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\quickstep.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\rotation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\step.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\stepfast.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\testing.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\timer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\fastdot.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\fastldlt.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\fastlsolve.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\fastltsolve.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\ode\contrib\msvc7\ode_default\de_padf_integration.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\collision.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\collision_space.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\collision_trimesh.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\compatibility.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\contact.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\error.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\export-dif.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\geom.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\mass.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\matrix.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\memory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\misc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\objects.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\ode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\odecpp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\odecpp_collision.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\odemath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\rotation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\space.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\include\ode\timer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\Bounder33.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\Lcp33.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\StepJointInternal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\array.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\collision_kernel.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\collision_space_internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\collision_std.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\collision_transform.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\collision_trimesh_internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\collision_util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\geom_internal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\joint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\lcp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\mat.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\objects.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\obstack.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\quickstep.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\stack.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\step.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\testing.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\ode\src\util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\ode\contrib\msvc7\ode_default\de_padf_integration.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\3rd-party\ode\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{2BC299F2-9570-3C3F-AE5E-1AABBE4879FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{A90ADB9F-0E60-38AC-A933-E625587C875F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

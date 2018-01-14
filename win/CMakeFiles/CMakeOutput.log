@@ -1,0 +1,746 @@
+The system is: Windows - 10.0.16299 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine ���ᨨ 15.4.8.50001 ��� .NET Framework
+(C) ��௮��� �������� (Microsoft Corporation). �� �ࠢ� ���饭�.
+
+���ઠ ���� 01.12.2017 22:51:07.
+�஥�� "E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CompilerIdC\CompilerIdC.vcxproj" � 㧫� 1 (楫��� ��ꥪ�� �� 㬮�砭��).
+PrepareForBuild:
+  �������� ��⠫��� "Debug\".
+  �������� ��⠫��� "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  �������� "Debug\CompilerIdC.tlog\unsuccessfulbuild", ⠪ ��� �뫮 ������ "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  ���� "Debug\CompilerIdC.tlog\unsuccessfulbuild" 㤠�����.
+  ���饭�� � "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+���ઠ �஥�� "E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CompilerIdC\CompilerIdC.vcxproj" �����襭� (楫��� ��ꥪ�� �� 㬮�砭��).
+
+���ઠ �ᯥ譮 �����襭�.
+    �।�०�����: 0
+    �訡��: 0
+
+��諮 �६��� 00:00:03.18
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/UXRAY_exp/win/CMakeFiles/3.10.0-rc5/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine ���ᨨ 15.4.8.50001 ��� .NET Framework
+(C) ��௮��� �������� (Microsoft Corporation). �� �ࠢ� ���饭�.
+
+���ઠ ���� 01.12.2017 22:51:10.
+�஥�� "E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CompilerIdCXX\CompilerIdCXX.vcxproj" � 㧫� 1 (楫��� ��ꥪ�� �� 㬮�砭��).
+PrepareForBuild:
+  �������� ��⠫��� "Debug\".
+  �������� ��⠫��� "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  �������� "Debug\CompilerIdCXX.tlog\unsuccessfulbuild", ⠪ ��� �뫮 ������ "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  ���� "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" 㤠�����.
+  ���饭�� � "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+���ઠ �஥�� "E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CompilerIdCXX\CompilerIdCXX.vcxproj" �����襭� (楫��� ��ꥪ�� �� 㬮�砭��).
+
+���ઠ �ᯥ譮 �����襭�.
+    �।�०�����: 0
+    �訡��: 0
+
+��諮 �६��� 00:00:01.90
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "E:/UXRAY_exp/win/CMakeFiles/3.10.0-rc5/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/UXRAY_exp/win/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_b754a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.4.8.50001 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  01.12.2017 22:51:13.
+Џа®ҐЄв "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_b754a.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_b754a.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_b754a.dir\Debug\cmTC_b754a.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_b754a.dir\Debug\cmTC_b754a.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b754a.dir\Debug\\" /Fd"cmTC_b754a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\testCCompiler.c
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.11.25547 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b754a.dir\Debug\\" /Fd"cmTC_b754a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\testCCompiler.c
+  testCCompiler.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_b754a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_b754a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_b754a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b754a.dir\Debug\testCCompiler.obj
+  cmTC_b754a.vcxproj -> E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_b754a.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_b754a.dir\Debug\cmTC_b754a.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_b754a.dir\Debug\cmTC_b754a.tlog\cmTC_b754a.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_b754a.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:02.30
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/UXRAY_exp/win/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e9d05.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.4.8.50001 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  01.12.2017 22:51:16.
+Џа®ҐЄв "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_e9d05.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_e9d05.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_e9d05.dir\Debug\cmTC_e9d05.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_e9d05.dir\Debug\cmTC_e9d05.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9d05.dir\Debug\\" /Fd"cmTC_e9d05.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.11.25547 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9d05.dir\Debug\\" /Fd"cmTC_e9d05.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_e9d05.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_e9d05.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_e9d05.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e9d05.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_e9d05.vcxproj -> E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_e9d05.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_e9d05.dir\Debug\cmTC_e9d05.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_e9d05.dir\Debug\cmTC_e9d05.tlog\cmTC_e9d05.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_e9d05.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.88
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: E:/UXRAY_exp/win/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_52951.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.4.8.50001 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  01.12.2017 22:51:19.
+Џа®ҐЄв "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_52951.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_52951.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_52951.dir\Debug\cmTC_52951.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_52951.dir\Debug\cmTC_52951.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_52951.dir\Debug\\" /Fd"cmTC_52951.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.11.25547 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_52951.dir\Debug\\" /Fd"cmTC_52951.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  testCXXCompiler.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_52951.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_52951.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_52951.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_52951.dir\Debug\testCXXCompiler.obj
+  cmTC_52951.vcxproj -> E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_52951.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_52951.dir\Debug\cmTC_52951.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_52951.dir\Debug\cmTC_52951.tlog\cmTC_52951.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_52951.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.83
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/UXRAY_exp/win/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_f98d0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.4.8.50001 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  01.12.2017 22:51:21.
+Џа®ҐЄв "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_f98d0.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_f98d0.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_f98d0.dir\Debug\cmTC_f98d0.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_f98d0.dir\Debug\cmTC_f98d0.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f98d0.dir\Debug\\" /Fd"cmTC_f98d0.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.11.25547 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f98d0.dir\Debug\\" /Fd"cmTC_f98d0.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_f98d0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_f98d0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_f98d0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_f98d0.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_f98d0.vcxproj -> E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_f98d0.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_f98d0.dir\Debug\cmTC_f98d0.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_f98d0.dir\Debug\cmTC_f98d0.tlog\cmTC_f98d0.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_f98d0.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.79
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: E:/UXRAY_exp/win/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_54baa.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.4.8.50001 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  01.12.2017 22:51:24.
+Џа®ҐЄв "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_54baa.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_54baa.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_54baa.dir\Debug\cmTC_54baa.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_54baa.dir\Debug\cmTC_54baa.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_54baa.dir\Debug\\" /Fd"cmTC_54baa.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\feature_tests.cxx
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.11.25547 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_54baa.dir\Debug\\" /Fd"cmTC_54baa.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\feature_tests.cxx
+  feature_tests.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_54baa.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_54baa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_54baa.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_54baa.dir\Debug\feature_tests.obj
+  cmTC_54baa.vcxproj -> E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_54baa.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_54baa.dir\Debug\cmTC_54baa.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_54baa.dir\Debug\cmTC_54baa.tlog\cmTC_54baa.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_54baa.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.77
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Performing C++ SOURCE FILE Test HAVE_STD_CPP11_FLAG succeeded with the following output:
+Change Dir: E:/UXRAY_exp/win/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_809f3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.4.8.50001 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  01.12.2017 23:21:59.
+Џа®ҐЄв "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_809f3.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_809f3.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_809f3.dir\Debug\cmTC_809f3.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_809f3.dir\Debug\cmTC_809f3.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STD_CPP11_FLAG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_809f3.dir\Debug\\" /Fd"cmTC_809f3.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\src.cxx
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.11.25547 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STD_CPP11_FLAG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_809f3.dir\Debug\\" /Fd"cmTC_809f3.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_809f3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_809f3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_809f3.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_809f3.dir\Debug\src.obj
+  cmTC_809f3.vcxproj -> E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_809f3.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_809f3.dir\Debug\cmTC_809f3.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_809f3.dir\Debug\cmTC_809f3.tlog\cmTC_809f3.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_809f3.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:02.31
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test FMT_CPP11_CMATH succeeded with the following output:
+Change Dir: E:/UXRAY_exp/win/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_895df.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.4.8.50001 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  01.12.2017 23:22:02.
+Џа®ҐЄв "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_895df.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_895df.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_895df.dir\Debug\cmTC_895df.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_895df.dir\Debug\cmTC_895df.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D FMT_CPP11_CMATH /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_895df.dir\Debug\\" /Fd"cmTC_895df.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue  -O3 E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\src.cxx
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.11.25547 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D FMT_CPP11_CMATH /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_895df.dir\Debug\\" /Fd"cmTC_895df.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue  -O3 E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\src.cxx
+  
+cl : Є®¬ ­¤­ п бва®Є  warning D9002: Їа®ЇгбЄ ­ҐЁ§ўҐбв­®Ј® Ї а ¬Ґва  "-O3" [E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_895df.vcxproj]
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_895df.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_895df.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_895df.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_895df.dir\Debug\src.obj
+  cmTC_895df.vcxproj -> E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_895df.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_895df.dir\Debug\cmTC_895df.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_895df.dir\Debug\cmTC_895df.tlog\cmTC_895df.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_895df.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+
+"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_895df.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+(ClCompile Є®­Ґз­л© ®ЎкҐЄв) -> 
+  cl : Є®¬ ­¤­ п бва®Є  warning D9002: Їа®ЇгбЄ ­ҐЁ§ўҐбв­®Ј® Ї а ¬Ґва  "-O3" [E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_895df.vcxproj]
+
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 1
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.80
+
+Source file was:
+
+      #include <cmath>
+      int main() {}
+Performing C++ SOURCE FILE Test FMT_CPP11_SNPRINTF succeeded with the following output:
+Change Dir: E:/UXRAY_exp/win/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_99235.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.4.8.50001 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  01.12.2017 23:22:06.
+Џа®ҐЄв "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_99235.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_99235.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_99235.dir\Debug\cmTC_99235.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_99235.dir\Debug\cmTC_99235.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D FMT_CPP11_SNPRINTF /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_99235.dir\Debug\\" /Fd"cmTC_99235.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue  -O3 E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\src.cxx
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.11.25547 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D FMT_CPP11_SNPRINTF /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_99235.dir\Debug\\" /Fd"cmTC_99235.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue  -O3 E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+cl : Є®¬ ­¤­ п бва®Є  warning D9002: Їа®ЇгбЄ ­ҐЁ§ўҐбв­®Ј® Ї а ¬Ґва  "-O3" [E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_99235.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_99235.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_99235.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_99235.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_99235.dir\Debug\src.obj
+  cmTC_99235.vcxproj -> E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_99235.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_99235.dir\Debug\cmTC_99235.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_99235.dir\Debug\cmTC_99235.tlog\cmTC_99235.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_99235.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+
+"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_99235.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+(ClCompile Є®­Ґз­л© ®ЎкҐЄв) -> 
+  cl : Є®¬ ­¤­ п бва®Є  warning D9002: Їа®ЇгбЄ ­ҐЁ§ўҐбв­®Ј® Ї а ¬Ґва  "-O3" [E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_99235.vcxproj]
+
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 1
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.60
+
+Source file was:
+
+      #include <stdio.h>
+      int main() {
+        char buffer[10];
+        snprintf(buffer, 10, "foo");
+      }
+Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_TEMPLATES succeeded with the following output:
+Change Dir: E:/UXRAY_exp/win/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_9446c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.4.8.50001 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  01.12.2017 23:22:09.
+Џа®ҐЄв "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_9446c.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_9446c.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_9446c.dir\Debug\cmTC_9446c.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_9446c.dir\Debug\cmTC_9446c.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D SUPPORTS_VARIADIC_TEMPLATES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9446c.dir\Debug\\" /Fd"cmTC_9446c.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\src.cxx
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.11.25547 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D SUPPORTS_VARIADIC_TEMPLATES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9446c.dir\Debug\\" /Fd"cmTC_9446c.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_9446c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_9446c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_9446c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9446c.dir\Debug\src.obj
+  cmTC_9446c.vcxproj -> E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_9446c.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_9446c.dir\Debug\cmTC_9446c.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_9446c.dir\Debug\cmTC_9446c.tlog\cmTC_9446c.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_9446c.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.59
+
+Source file was:
+
+  template <class T, class ...Types>
+  struct S { typedef typename S<Types...>::type type; };
+  int main() {}
+Performing C++ SOURCE FILE Test SUPPORTS_INITIALIZER_LIST succeeded with the following output:
+Change Dir: E:/UXRAY_exp/win/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_51757.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.4.8.50001 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  01.12.2017 23:22:11.
+Џа®ҐЄв "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_51757.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_51757.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_51757.dir\Debug\cmTC_51757.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_51757.dir\Debug\cmTC_51757.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D SUPPORTS_INITIALIZER_LIST /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_51757.dir\Debug\\" /Fd"cmTC_51757.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\src.cxx
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.11.25547 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D SUPPORTS_INITIALIZER_LIST /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_51757.dir\Debug\\" /Fd"cmTC_51757.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_51757.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_51757.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_51757.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_51757.dir\Debug\src.obj
+  cmTC_51757.vcxproj -> E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_51757.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_51757.dir\Debug\cmTC_51757.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_51757.dir\Debug\cmTC_51757.tlog\cmTC_51757.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_51757.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.48
+
+Source file was:
+
+  #include <initializer_list>
+  int main() {}
+Performing C++ SOURCE FILE Test SUPPORTS_ENUM_BASE succeeded with the following output:
+Change Dir: E:/UXRAY_exp/win/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_3f62b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.4.8.50001 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  01.12.2017 23:22:13.
+Џа®ҐЄв "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_3f62b.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_3f62b.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_3f62b.dir\Debug\cmTC_3f62b.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_3f62b.dir\Debug\cmTC_3f62b.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D SUPPORTS_ENUM_BASE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3f62b.dir\Debug\\" /Fd"cmTC_3f62b.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\src.cxx
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.11.25547 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D SUPPORTS_ENUM_BASE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_3f62b.dir\Debug\\" /Fd"cmTC_3f62b.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_3f62b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_3f62b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_3f62b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3f62b.dir\Debug\src.obj
+  cmTC_3f62b.vcxproj -> E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_3f62b.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_3f62b.dir\Debug\cmTC_3f62b.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_3f62b.dir\Debug\cmTC_3f62b.tlog\cmTC_3f62b.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_3f62b.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.45
+
+Source file was:
+
+  enum C : char {A};
+  int main() {}
+Performing C++ SOURCE FILE Test SUPPORTS_TYPE_TRAITS succeeded with the following output:
+Change Dir: E:/UXRAY_exp/win/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_1c01b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.4.8.50001 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  01.12.2017 23:22:15.
+Џа®ҐЄв "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_1c01b.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_1c01b.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_1c01b.dir\Debug\cmTC_1c01b.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_1c01b.dir\Debug\cmTC_1c01b.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D SUPPORTS_TYPE_TRAITS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1c01b.dir\Debug\\" /Fd"cmTC_1c01b.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\src.cxx
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.11.25547 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D SUPPORTS_TYPE_TRAITS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1c01b.dir\Debug\\" /Fd"cmTC_1c01b.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\include\type_traits(2342): warning C4577: "noexcept" ЁбЇ®«м§®ў ­® ЎҐ§ гЄ § ­Ёп аҐ¦Ё¬  ®Ўа Ў®вЄЁ ЁбЄ«озҐ­Ё©; ЇаҐЄа йҐ­ЁҐ Ї® ЁбЄ«озҐ­Ёо ­Ґ Ј а ­вЁагҐвбп. “Є ¦ЁвҐ /EHsc [E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_1c01b.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_1c01b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_1c01b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_1c01b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1c01b.dir\Debug\src.obj
+  cmTC_1c01b.vcxproj -> E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_1c01b.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_1c01b.dir\Debug\cmTC_1c01b.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_1c01b.dir\Debug\cmTC_1c01b.tlog\cmTC_1c01b.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_1c01b.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+
+"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_1c01b.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+(ClCompile Є®­Ґз­л© ®ЎкҐЄв) -> 
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\include\type_traits(2342): warning C4577: "noexcept" ЁбЇ®«м§®ў ­® ЎҐ§ гЄ § ­Ёп аҐ¦Ё¬  ®Ўа Ў®вЄЁ ЁбЄ«озҐ­Ё©; ЇаҐЄа йҐ­ЁҐ Ї® ЁбЄ«озҐ­Ёо ­Ґ Ј а ­вЁагҐвбп. “Є ¦ЁвҐ /EHsc [E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_1c01b.vcxproj]
+
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 1
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.77
+
+Source file was:
+
+  #include <type_traits>
+  class C { void operator=(const C&); };
+  int main() { static_assert(!std::is_copy_assignable<C>::value, ""); }
+Performing C++ SOURCE FILE Test SUPPORTS_USER_DEFINED_LITERALS succeeded with the following output:
+Change Dir: E:/UXRAY_exp/win/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_6e121.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.4.8.50001 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  01.12.2017 23:22:17.
+Џа®ҐЄв "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_6e121.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_6e121.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_6e121.dir\Debug\cmTC_6e121.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_6e121.dir\Debug\cmTC_6e121.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D SUPPORTS_USER_DEFINED_LITERALS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6e121.dir\Debug\\" /Fd"cmTC_6e121.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\src.cxx
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.11.25547 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D SUPPORTS_USER_DEFINED_LITERALS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6e121.dir\Debug\\" /Fd"cmTC_6e121.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_6e121.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_6e121.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_6e121.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6e121.dir\Debug\src.obj
+  cmTC_6e121.vcxproj -> E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_6e121.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_6e121.dir\Debug\cmTC_6e121.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_6e121.dir\Debug\cmTC_6e121.tlog\cmTC_6e121.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_6e121.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 0
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.63
+
+Source file was:
+
+  void operator"" _udl(long double);
+  int main() {}
+Determining if the open exist passed with the following output:
+Change Dir: E:/UXRAY_exp/win/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_7734b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine ўҐабЁЁ 15.4.8.50001 ¤«п .NET Framework
+(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation). ‚бҐ Їа ў  § йЁйҐ­л.
+
+‘Ў®аЄ  ­ з в  01.12.2017 23:22:19.
+Џа®ҐЄв "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_7734b.vcxproj" ў г§«Ґ 1 (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+PrepareForBuild:
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_7734b.dir\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\".
+  ‘®§¤ ­ЁҐ Є в «®Ј  "cmTC_7734b.dir\Debug\cmTC_7734b.tlog\".
+InitializeBuildStatus:
+  ‘®§¤ ­ЁҐ "cmTC_7734b.dir\Debug\cmTC_7734b.tlog\unsuccessfulbuild", в Є Є Є Ўл«® § ¤ ­® "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7734b.dir\Debug\\" /Fd"cmTC_7734b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.11.25547 ¤«п x86
+  (C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7734b.dir\Debug\\" /Fd"cmTC_7734b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+  
+E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details. [E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_7734b.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(516): note:  б¬. ®Ўкпў«Ґ­ЁҐ "open"
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_7734b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_7734b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/Debug/cmTC_7734b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_7734b.dir\Debug\CheckSymbolExists.obj
+  cmTC_7734b.vcxproj -> E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\Debug\cmTC_7734b.exe
+FinalizeBuildStatus:
+  ” ©« "cmTC_7734b.dir\Debug\cmTC_7734b.tlog\unsuccessfulbuild" г¤ «пҐвбп.
+  ЋЎа йҐ­ЁҐ Є "cmTC_7734b.dir\Debug\cmTC_7734b.tlog\cmTC_7734b.lastbuildstate".
+‘Ў®аЄ  Їа®ҐЄв  "E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_7734b.vcxproj" § ўҐаиҐ­  (жҐ«ҐўлҐ ®ЎкҐЄвл Ї® г¬®«з ­Ёо).
+
+‘Ў®аЄ  гбЇҐи­® § ўҐаиҐ­ .
+
+"E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_7734b.vcxproj" (жҐ«Ґў®© ®ЎкҐЄв Ї® г¬®«з ­Ёо) (1) ->
+(ClCompile Є®­Ґз­л© ®ЎкҐЄв) -> 
+  E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details. [E:\UXRAY_exp\win\CMakeFiles\CMakeTmp\cmTC_7734b.vcxproj]
+
+    ЏаҐ¤гЇаҐ¦¤Ґ­Ё©: 1
+    ЋиЁЎ®Є: 0
+
+Џа®и«® ўаҐ¬Ґ­Ё 00:00:01.69
+
+File E:/UXRAY_exp/win/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef open
+  return ((int*)(&open))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

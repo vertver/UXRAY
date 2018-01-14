@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\3rd-party\NVAPI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\UXRAY_exp\code\3rd-party\NVAPI\NvApiDriverSettings.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\NVAPI\nvHLSLExtns.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\NVAPI\nvHLSLExtnsInternal.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\NVAPI\nvShaderExtnEnums.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\NVAPI\nvapi.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\NVAPI\nvapi_lite_common.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\NVAPI\nvapi_lite_d3dext.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\NVAPI\nvapi_lite_salend.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\NVAPI\nvapi_lite_salstart.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\NVAPI\nvapi_lite_sli.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\NVAPI\nvapi_lite_stereo.h">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\3rd-party\NVAPI\nvapi_lite_surround.h">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A3F09EEB-070A-3986-BCF9-E4679E3341E7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

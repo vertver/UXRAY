@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{042014C9-99DC-3407-8846-089F7A9AB106}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>xrCore</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\SDK 0.7 Full Win32\X-Ray_CoP_SDK\bin\x86\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">xrCore.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">xrCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\SDK 0.7 Full Win32\X-Ray_CoP_SDK\bin\x86\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">xrCore.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">xrCore</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrCore;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await /permissive-</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DEBUG;XRCORE_EXPORTS;_SECURE_SCL=0;FMT_HEADER_ONLY=1;CMAKE_INTDIR="Debug";xrCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DEBUG;XRCORE_EXPORTS;_SECURE_SCL=0;FMT_HEADER_ONLY=1;CMAKE_INTDIR=\"Debug\";xrCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrCore;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrCore;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\3rd-party\dxerr2015\Debug\dxerr2015.lib;version.lib;dbghelp.lib;winmm.lib;faultrep.lib;psapi.lib;PowrProf.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/UXRAY_exp/win/code/engine/xrCore/Debug/xrCore.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>E:/SDK 0.7 Full Win32/X-Ray_CoP_SDK/pdb/x86/Debug/xrCore.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrCore;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await /permissive-</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;XRCORE_EXPORTS;_SECURE_SCL=0;FMT_HEADER_ONLY=1;CMAKE_INTDIR="RelWithDebInfo";xrCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;XRCORE_EXPORTS;_SECURE_SCL=0;FMT_HEADER_ONLY=1;CMAKE_INTDIR=\"RelWithDebInfo\";xrCore_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrCore;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrCore;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\3rd-party\dxerr2015\RelWithDebInfo\dxerr2015.lib;version.lib;dbghelp.lib;winmm.lib;faultrep.lib;psapi.lib;PowrProf.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/UXRAY_exp/win/code/engine/xrCore/RelWithDebInfo/xrCore.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>E:/SDK 0.7 Full Win32/X-Ray_CoP_SDK/pdb/x86/RelWithDebInfo/xrCore.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\engine\xrCore\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/UXRAY_exp/code/engine/xrCore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/code/engine/xrCore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/code/engine/xrCore/CMakeLists.txt;E:\UXRAY_exp\code\engine\xrCore\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrCore\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\engine\xrCore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/UXRAY_exp/code/engine/xrCore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/code/engine/xrCore/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/code/engine/xrCore/CMakeLists.txt;E:\UXRAY_exp\code\engine\xrCore\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrCore\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\engine\xrCore\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\lzhuf.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\LzHuf.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_config1x.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo_conf.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo_config.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo_dict.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo_init.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo_ptr.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo1x.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo1x_1.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo1x_9x.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo1x_d1.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo1x_d2.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo1x_d3.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzoconf.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzodefs.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_miniacc.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\rt_compressor.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_compressor.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\rt_compressor9.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrDebug.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrDebug_macros.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrDebugNew.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\make_string.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\FileSystem.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\FileSystem.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\FS.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\FS.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\FS_internal.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\LocatorAPI.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\LocatorAPI.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\LocatorAPI_defs.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\LocatorAPI_defs.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\log.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\log.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\NET_utils.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\net_utils.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\Xr_ini.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xr_ini.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\stream_reader.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\stream_reader.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\file_stream_reader.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\file_stream_reader.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\intrusive_ptr.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\FTimer.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\FTimer.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\resource.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\stdafx.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrCore.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrCore.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrCore_platform.h" />
+    <ResourceCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrCore.rc" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\stacktrace_collector.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\stacktrace_collector.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\conv.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xr_writer.h" />
+    <ClInclude Include="E:\UXRAY_exp\win\generated\xr_config.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_bitwise.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_color.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_compressed_normal.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\_compressed_normal.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_cylinder.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_fbox.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_fbox2.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_flags.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\_math.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_math.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_matrix.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_matrix33.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_obb.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_plane.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_plane2.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_quaternion.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_random.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_rect.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_sphere.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\_sphere.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_types.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_vector2.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_vector3d.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_vector3d_ext.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_vector4.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\dump_string.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\dump_string.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\vector.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\cpuid.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\cpuid.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_std_extensions.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\_std_extensions.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_stl_extensions.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\clsid.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\clsid.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\fastdelegate.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\string_concatenations.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\string_concatenations.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xr_trims.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xr_trims.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\buffer_vector.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\buffer_vector_inline.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\FixedMap.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\FixedSet.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\FixedVector.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrPool.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\memory_allocation_stats.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\memory_usage.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory_align.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory_align.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory_debug.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory_POOL.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrMEMORY_POOL.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory_pure.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory_subst_msvc.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory_subst_msvc.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\ptmalloc3\malloc.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\ptmalloc3\malloc-2.8.3.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\ptmalloc3\sysdeps\win32\win32.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\doug_lea_allocator.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\doug_lea_allocator.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\memory_allocator_options.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\memory_monitor.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\memory_monitor.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\os_clipboard.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\os_clipboard.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\crc32.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xr_resource.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xr_shared.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xr_shared.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrsharedmem.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrsharedmem.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrstring.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrstring.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\UXRAY_exp\win\ZERO_CHECK.vcxproj">
+      <Project>{EF8DA05E-911F-3D8C-8BD2-B802AEE27239}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\dxerr2015\dxerr2015.vcxproj">
+      <Project>{4A5D0240-67B7-3D48-8580-8E5DB2FDD0CC}</Project>
+      <Name>dxerr2015</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

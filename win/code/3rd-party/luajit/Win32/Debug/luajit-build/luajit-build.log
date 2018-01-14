@@ -1,0 +1,90 @@
+﻿  Building Custom Rule E:/UXRAY_exp/code/3rd-party/luajit/CMakeLists.txt
+  CMake does not need to re-run because E:/UXRAY_exp/win/code/3rd-party/luajit/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'luajit-build'
+  No download step for 'luajit-build'
+  No update step for 'luajit-build'
+  No patch step for 'luajit-build'
+  No configure step for 'luajit-build'
+  Performing build step for 'luajit-build'
+  Системе не удается найти указанный путь.
+  minilua.c
+  buildvm.c
+  buildvm_asm.c
+  buildvm_fold.c
+  buildvm_lib.c
+  buildvm_peobj.c
+  Создание кода...
+  lj_alloc.c
+  lj_api.c
+  lj_asm.c
+  lj_bc.c
+  lj_bcread.c
+  lj_bcwrite.c
+  lj_carith.c
+  lj_ccall.c
+  lj_ccallback.c
+  lj_cconv.c
+  lj_cdata.c
+  lj_char.c
+  lj_clib.c
+  lj_cparse.c
+  lj_crecord.c
+  lj_ctype.c
+  lj_debug.c
+  lj_dispatch.c
+  lj_err.c
+  lj_ffrecord.c
+  Создание кода...
+  Компиляция...
+  lj_func.c
+  lj_gc.c
+  lj_gdbjit.c
+  lj_ir.c
+  lj_lex.c
+  lj_lib.c
+  lj_load.c
+  lj_mcode.c
+  lj_meta.c
+  lj_obj.c
+  lj_opt_dce.c
+  lj_opt_fold.c
+  lj_opt_loop.c
+  lj_opt_mem.c
+  lj_opt_narrow.c
+  lj_opt_sink.c
+  lj_opt_split.c
+  lj_parse.c
+  lj_record.c
+  lj_snap.c
+  Создание кода...
+  Компиляция...
+  lj_state.c
+  lj_str.c
+  lj_strscan.c
+  lj_tab.c
+  lj_trace.c
+  lj_udata.c
+  lj_vmevent.c
+  lj_vmmath.c
+  lib_aux.c
+  lib_base.c
+  lib_bit.c
+  lib_debug.c
+  lib_ffi.c
+  lib_init.c
+  lib_io.c
+  lib_jit.c
+  lib_math.c
+  lib_os.c
+  lib_package.c
+  lib_string.c
+  Создание кода...
+  Компиляция...
+  lib_table.c
+  Создание кода...
+     ╤ючфрхЄё  сшсышюЄхър lua51.lib ш юс·хъЄ lua51.exp
+  luajit.c
+  
+  === Successfully built LuaJIT for Windows/x86 ===
+  Performing install step for 'luajit-build'
+  Completed 'luajit-build'

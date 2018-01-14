@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Cache.cpp">
+      <Filter>Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Core_Processor.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Core_SourceManager.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Core_StartStop.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\OpenALDeviceList.cpp">
+      <Filter>Core\OpenAL</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_CoreA.cpp">
+      <Filter>Core\OpenAL</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Emitter.cpp">
+      <Filter>Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Emitter_FSM.cpp">
+      <Filter>Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Emitter_StartStop.cpp">
+      <Filter>Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Emitter_streamer.cpp">
+      <Filter>Emitter</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Environment.cpp">
+      <Filter>Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\guids.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\sound.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\stdafx.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Source.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Source_loader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Target.cpp">
+      <Filter>Target</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_TargetA.cpp">
+      <Filter>Target\OpenAL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Cache.h">
+      <Filter>Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrSound\OpenALDeviceList.h">
+      <Filter>Core\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_CoreA.h">
+      <Filter>Core\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Emitter.h">
+      <Filter>Emitter</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Environment.h">
+      <Filter>Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrSound\cl_intersect.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrSound\Sound.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrSound\stdafx.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Source.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_Target.h">
+      <Filter>Target</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrSound\SoundRender_TargetA.h">
+      <Filter>Target\OpenAL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\engine\xrSound\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core\OpenAL">
+      <UniqueIdentifier>{262939CF-9C79-34CB-9BA1-A347ACC6FA3F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Target\OpenAL">
+      <UniqueIdentifier>{C35E49AB-D950-3AA0-9DA7-16E20E191598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cache">
+      <UniqueIdentifier>{9C15FAC2-3047-31F9-A6BF-16B9A399E013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{F6C7B3BC-44CD-39BD-859E-10EB8EA1EC4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Emitter">
+      <UniqueIdentifier>{95CE2340-06BD-34FF-8A05-D73138017DBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Environment">
+      <UniqueIdentifier>{5FFF6BA2-D85D-3F9C-B771-DD2E25284EEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{ED8D2039-EE74-3F49-A7CA-D705B59B694D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{3D6F4BF9-8C3A-38F5-912A-CDA3F14D71DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Target">
+      <UniqueIdentifier>{C4F09688-8DDF-3D2E-B6DC-23E65CDFA748}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

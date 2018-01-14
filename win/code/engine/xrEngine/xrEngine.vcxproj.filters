@@ -1,0 +1,944 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\IGame_ObjectPool.cpp">
+      <Filter>Game API\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\pure_relcase.cpp">
+      <Filter>Game API\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xr_object.cpp">
+      <Filter>Game API\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xr_object_list.cpp">
+      <Filter>Game API\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\IRenderable.cpp">
+      <Filter>Interfaces\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Render.cpp">
+      <Filter>Interfaces\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_manager.cpp">
+      <Filter>editor\environment\suns_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\line_edit_control.cpp">
+      <Filter>Engine\text_editor\line_editor_control</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\fmesh.cpp">
+      <Filter>RenderRef\Execution &amp; 3D\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\device.cpp">
+      <Filter>RenderRef\Execution &amp; 3D\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Device_create.cpp">
+      <Filter>RenderRef\Execution &amp; 3D\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Device_destroy.cpp">
+      <Filter>RenderRef\Execution &amp; 3D\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Device_Initialize.cpp">
+      <Filter>RenderRef\Execution &amp; 3D\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Device_Misc.cpp">
+      <Filter>RenderRef\Execution &amp; 3D\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Device_overdraw.cpp">
+      <Filter>RenderRef\Execution &amp; 3D\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Device_wndproc.cpp">
+      <Filter>RenderRef\Execution &amp; 3D\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\StatGraph.cpp">
+      <Filter>RenderRef\Execution &amp; 3D\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Stats.cpp">
+      <Filter>RenderRef\Execution &amp; 3D\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\IInputReceiver.cpp">
+      <Filter>Interfaces\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Xr_input.cpp">
+      <Filter>Interfaces\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xr_input_xinput.cpp">
+      <Filter>Interfaces\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_flares.cpp">
+      <Filter>editor\environment\suns_manager\sun\flares</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\pure.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_manager.cpp">
+      <Filter>editor\environment\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_ambients_effect_id.cpp">
+      <Filter>editor\environment\ambients\ambient\effect_id</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\CameraBase.cpp">
+      <Filter>Game API\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\CameraManager.cpp">
+      <Filter>Game API\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Effector.cpp">
+      <Filter>Game API\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\EffectorPP.cpp">
+      <Filter>Game API\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\defines.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\stdafx.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\x_ray.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\ICollidable.cpp">
+      <Filter>Interfaces\Collidable</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_weathers_weather.cpp">
+      <Filter>editor\environment\weathers\weather</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\bone.cpp">
+      <Filter>Game API\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Envelope.cpp">
+      <Filter>Game API\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\interp.cpp">
+      <Filter>Game API\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\motion.cpp">
+      <Filter>Game API\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\ObjectAnimator.cpp">
+      <Filter>Game API\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\edit_actions.cpp">
+      <Filter>Engine\text_editor\edit_actions</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_effects_effect.cpp">
+      <Filter>editor\environment\effects_manager\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_sound_channels_channel.cpp">
+      <Filter>editor\environment\sound_channels_manager\channel</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\line_editor.cpp">
+      <Filter>Engine\text_editor\line_editor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Feel_Touch.cpp">
+      <Filter>Game API\Feelers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Feel_Vision.cpp">
+      <Filter>Game API\Feelers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_manager.cpp">
+      <Filter>editor\environment\thunderbolts</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_blend.cpp">
+      <Filter>editor\environment\suns_manager\sun\blend</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\perlin.cpp">
+      <Filter>Engine\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_sound_channels_source.cpp">
+      <Filter>editor\environment\sound_channels_manager\channel\source</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\PS_instance.cpp">
+      <Filter>Interfaces\Render\Particle system</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_gradient.cpp">
+      <Filter>editor\environment\thunderbolts\thunderbolt\gradient</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_thunderbolt_id.cpp">
+      <Filter>editor\environment\thunderbolts\thunderbolt_id</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Rain.cpp">
+      <Filter>Game API\Environment\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\thunderbolt.cpp">
+      <Filter>Game API\Environment\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xr_efflensflare.cpp">
+      <Filter>Game API\Environment\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_sun.cpp">
+      <Filter>editor\environment\suns_manager\sun</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Environment.cpp">
+      <Filter>Game API\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Environment_misc.cpp">
+      <Filter>Game API\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Environment_render.cpp">
+      <Filter>Game API\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xrHemisphere.cpp">
+      <Filter>Game API\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_weathers_manager.cpp">
+      <Filter>editor\environment\weathers</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\cf_dynamic_mesh.cpp">
+      <Filter>Game API\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xr_collide_form.cpp">
+      <Filter>Game API\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_collection.cpp">
+      <Filter>editor\environment\thunderbolts\collection</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\LightAnimLibrary.cpp">
+      <Filter>Interfaces\Render\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_sound_channels_manager.cpp">
+      <Filter>editor\environment\sound_channels_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_weathers_time.cpp">
+      <Filter>editor\environment\weathers\weather\time</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\CustomHUD.cpp">
+      <Filter>Game API\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\XR_IOConsole.cpp">
+      <Filter>Engine\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\XR_IOConsole_callback.cpp">
+      <Filter>Engine\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\XR_IOConsole_control.cpp">
+      <Filter>Engine\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\XR_IOConsole_get.cpp">
+      <Filter>Engine\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\ai_script_lua_debug.cpp">
+      <Filter>Engine\Core\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\ai_script_lua_extension.cpp">
+      <Filter>Engine\Core\Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_ambients_sound_id.cpp">
+      <Filter>editor\environment\ambients\ambient\sound_id</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Text_Console.cpp">
+      <Filter>Interfaces\Render\Execution &amp; 3D\TextConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Text_Console_WndProc.cpp">
+      <Filter>Interfaces\Render\Execution &amp; 3D\TextConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_levels_manager.cpp">
+      <Filter>editor\environment\levels_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\Engine.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\EngineAPI.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\EventAPI.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\mailSlot.cpp">
+      <Filter>Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_detail.cpp">
+      <Filter>editor\environment\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\engine_impl.cpp">
+      <Filter>editor\engine_impl</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_effects_manager.cpp">
+      <Filter>editor\environment\effects_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_ambients_ambient.cpp">
+      <Filter>editor\environment\ambients\ambient</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\GameMtlLib.cpp">
+      <Filter>Game API\GameMaterials</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\GameMtlLib_Engine.cpp">
+      <Filter>Game API\GameMaterials</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\doug_lea_memory_allocator.c">
+      <Filter>RenderRef\doug_lea_memory_allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\FDemoPlay.cpp">
+      <Filter>Game API\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\FDemoRecord.cpp">
+      <Filter>Game API\Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_ambients_manager.cpp">
+      <Filter>editor\environment\ambients</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\SkeletonMotions.cpp">
+      <Filter>RenderRef\Execution &amp; 3D\Visuals\Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_thunderbolt.cpp">
+      <Filter>editor\environment\thunderbolts\thunderbolt</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\IGame_Level.cpp">
+      <Filter>Game API</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\IGame_Level_check_textures.cpp">
+      <Filter>Game API</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\IGame_Persistent.cpp">
+      <Filter>Game API</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_flare.cpp">
+      <Filter>editor\environment\suns_manager\sun\flares\flare</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_gradient.cpp">
+      <Filter>editor\environment\suns_manager\sun\gradient</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\ObjectDump.cpp">
+      <Filter>Game API\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xr_ioc_cmd.cpp">
+      <Filter>Engine\Console\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\tntQAVI.cpp">
+      <Filter>Interfaces\Render\Execution &amp; 3D\Shaders\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xrImage_Resampler.cpp">
+      <Filter>Interfaces\Render\Execution &amp; 3D\Shaders\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xrTheora_Stream.cpp">
+      <Filter>Interfaces\Render\Execution &amp; 3D\Shaders\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xrTheora_Surface.cpp">
+      <Filter>Interfaces\Render\Execution &amp; 3D\Shaders\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\phdebug.cpp">
+      <Filter>Interfaces\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\GameFont.cpp">
+      <Filter>Interfaces\Render\Font output</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\MbHelpers.cpp">
+      <Filter>Interfaces\Render\Font output</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\ISheduled.cpp">
+      <Filter>Interfaces\Sheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrEngine\xrSheduler.cpp">
+      <Filter>Interfaces\Sheduler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IGame_ObjectPool.h">
+      <Filter>Game API\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IGame_Persistent.h">
+      <Filter>Game API\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\pure_relcase.h">
+      <Filter>Game API\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xr_object.h">
+      <Filter>Game API\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xr_object_list.h">
+      <Filter>Game API\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IRenderable.h">
+      <Filter>Interfaces\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Render.h">
+      <Filter>Interfaces\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_manager.hpp">
+      <Filter>editor\environment\suns_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\line_edit_control.h">
+      <Filter>Engine\text_editor\line_editor_control</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Fmesh.h">
+      <Filter>RenderRef\Execution &amp; 3D\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\device.h">
+      <Filter>RenderRef\Execution &amp; 3D\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\StatGraph.h">
+      <Filter>RenderRef\Execution &amp; 3D\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Stats.h">
+      <Filter>RenderRef\Execution &amp; 3D\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IInputReceiver.h">
+      <Filter>Interfaces\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xr_input.h">
+      <Filter>Interfaces\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xr_input_xinput.h">
+      <Filter>Interfaces\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_flares.hpp">
+      <Filter>editor\environment\suns_manager\sun\flares</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Properties.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\pure.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\std_classes.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_manager.hpp">
+      <Filter>editor\environment\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_ambients_effect_id.hpp">
+      <Filter>editor\environment\ambients\ambient\effect_id</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\CameraBase.h">
+      <Filter>Game API\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\CameraDefs.h">
+      <Filter>Game API\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\CameraManager.h">
+      <Filter>Game API\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Effector.h">
+      <Filter>Game API\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\EffectorPP.h">
+      <Filter>Game API\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\_d3d_extensions.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\dedicated_server_only.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\defines.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\mp_logging.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\stdafx.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\x_ray.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\ICollidable.h">
+      <Filter>Interfaces\Collidable</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_weathers_weather.hpp">
+      <Filter>editor\environment\weathers\weather</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\bone.h">
+      <Filter>Game API\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\envelope.h">
+      <Filter>Game API\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\motion.h">
+      <Filter>Game API\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\ObjectAnimator.h">
+      <Filter>Game API\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\edit_actions.h">
+      <Filter>Engine\text_editor\edit_actions</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_effects_effect.hpp">
+      <Filter>editor\environment\effects_manager\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_sound_channels_channel.hpp">
+      <Filter>editor\environment\sound_channels_manager\channel</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\line_editor.h">
+      <Filter>Engine\text_editor\line_editor</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Feel_Sound.h">
+      <Filter>Game API\Feelers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Feel_Touch.h">
+      <Filter>Game API\Feelers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Feel_Vision.h">
+      <Filter>Game API\Feelers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Shader_xrLC.h">
+      <Filter>Interfaces\Render\Execution &amp; 3D\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\WaveForm.h">
+      <Filter>Interfaces\Render\Execution &amp; 3D\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_manager.hpp">
+      <Filter>editor\environment\thunderbolts</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_blend.hpp">
+      <Filter>editor\environment\suns_manager\sun\blend</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\perlin.h">
+      <Filter>Engine\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_sound_channels_source.hpp">
+      <Filter>editor\environment\sound_channels_manager\channel\source</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\PS_instance.h">
+      <Filter>Interfaces\Render\Particle system</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_gradient.hpp">
+      <Filter>editor\environment\thunderbolts\thunderbolt\gradient</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\resource.h">
+      <Filter>General\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_thunderbolt_id.hpp">
+      <Filter>editor\environment\thunderbolts\thunderbolt_id</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Rain.h">
+      <Filter>Game API\Environment\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\thunderbolt.h">
+      <Filter>Game API\Environment\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xr_efflensflare.h">
+      <Filter>Game API\Environment\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\vis_common.h">
+      <Filter>Interfaces\Render\Visibility</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_sun.hpp">
+      <Filter>editor\environment\suns_manager\sun</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Environment.h">
+      <Filter>Game API\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xrHemisphere.h">
+      <Filter>Game API\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_weathers_manager.hpp">
+      <Filter>editor\environment\weathers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\cf_dynamic_mesh.h">
+      <Filter>Game API\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xr_collide_form.h">
+      <Filter>Game API\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_collection.hpp">
+      <Filter>editor\environment\thunderbolts\collection</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\LightAnimLibrary.h">
+      <Filter>Interfaces\Render\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_sound_channels_manager.hpp">
+      <Filter>editor\environment\sound_channels_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_weathers_time.hpp">
+      <Filter>editor\environment\weathers\weather\time</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\CustomHUD.h">
+      <Filter>Game API\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\XR_IOConsole.h">
+      <Filter>Engine\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\ai_script_lua_extension.h">
+      <Filter>Engine\Core\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\ai_script_lua_space.h">
+      <Filter>Engine\Core\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\ai_script_space.h">
+      <Filter>Engine\Core\Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_ambients_sound_id.hpp">
+      <Filter>editor\environment\ambients\ambient\sound_id</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Text_Console.h">
+      <Filter>Interfaces\Render\Execution &amp; 3D\TextConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_levels_manager.hpp">
+      <Filter>editor\environment\levels_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\Engine.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\EngineAPI.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\EventAPI.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_detail.hpp">
+      <Filter>editor\environment\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\engine_impl.hpp">
+      <Filter>editor\engine_impl</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_effects_manager.hpp">
+      <Filter>editor\environment\effects_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\cl_intersect.h">
+      <Filter>Engine\Collision Core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_ambients_ambient.hpp">
+      <Filter>editor\environment\ambients\ambient</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\GameMtlLib.h">
+      <Filter>Game API\GameMaterials</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\doug_lea_memory_allocator.h">
+      <Filter>RenderRef\doug_lea_memory_allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\FDemoPlay.h">
+      <Filter>Game API\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\FDemoRecord.h">
+      <Filter>Game API\Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_ambients_manager.hpp">
+      <Filter>editor\environment\ambients</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\SkeletonMotionDefs.h">
+      <Filter>RenderRef\Execution &amp; 3D\Visuals\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\SkeletonMotions.h">
+      <Filter>RenderRef\Execution &amp; 3D\Visuals\Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_thunderbolts_thunderbolt.hpp">
+      <Filter>editor\environment\thunderbolts\thunderbolt</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IGame_Level.h">
+      <Filter>Game API</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xrLevel.h">
+      <Filter>Game API</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\ide.hpp">
+      <Filter>editor\ide</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_flare.hpp">
+      <Filter>editor\environment\suns_manager\sun\flares\flare</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\editor_environment_suns_gradient.hpp">
+      <Filter>editor\environment\suns_manager\sun\gradient</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\ObjectDump.h">
+      <Filter>Game API\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xr_ioc_cmd.h">
+      <Filter>Engine\Console\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\tntQAVI.h">
+      <Filter>Interfaces\Render\Execution &amp; 3D\Shaders\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xrImage_Resampler.h">
+      <Filter>Interfaces\Render\Execution &amp; 3D\Shaders\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xrTheora_Stream.h">
+      <Filter>Interfaces\Render\Execution &amp; 3D\Shaders\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xrTheora_Surface.h">
+      <Filter>Interfaces\Render\Execution &amp; 3D\Shaders\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IObjectPhysicsCollision.h">
+      <Filter>Interfaces\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IPHdebug.h">
+      <Filter>Interfaces\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IPhysicsGeometry.h">
+      <Filter>Interfaces\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\IPhysicsShell.h">
+      <Filter>Interfaces\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\GameFont.h">
+      <Filter>Interfaces\Render\Font output</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\MbHelpers.h">
+      <Filter>Interfaces\Render\Font output</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\property_collection.hpp">
+      <Filter>editor\property_collection</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\property_collection_forward.hpp">
+      <Filter>editor\property_collection</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\property_collection_inline.hpp">
+      <Filter>editor\property_collection</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\ISheduled.h">
+      <Filter>Interfaces\Sheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\xrSheduler.h">
+      <Filter>Interfaces\Sheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrEngine\EnnumerateVertices.h">
+      <Filter>Interfaces\Render\Visuals\Skeleton</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\engine\xrEngine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\UXRAY_exp\code\engine\xrEngine\splash_xrcs_en.bmp">
+      <Filter>General\Resources</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\engine\xrEngine\stalker_cs.ico">
+      <Filter>General\Resources</Filter>
+    </None>
+    <None Include="E:\UXRAY_exp\code\engine\xrEngine\ClientServer.txt" />
+    <None Include="E:\UXRAY_exp\code\engine\xrEngine\Effects description.txt" />
+    <None Include="E:\UXRAY_exp\code\engine\xrEngine\features.txt" />
+    <None Include="E:\UXRAY_exp\code\engine\xrEngine\TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\UXRAY_exp\code\engine\xrEngine\resource.rc">
+      <Filter>General\Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="editor\environment">
+      <UniqueIdentifier>{96D5D6DC-1CF3-35F5-840C-11DED211D75F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\engine_impl">
+      <UniqueIdentifier>{F70ECBC3-3B25-3895-85A5-882E16537080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\property_collection">
+      <UniqueIdentifier>{6BCBAD0A-7C53-3D79-83EB-E5974A04F004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\ide">
+      <UniqueIdentifier>{D590996A-6180-353F-94F2-D40FBAA771C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\Render\Visuals">
+      <UniqueIdentifier>{3380A009-85A0-394C-AA39-05245614BF57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\Render\Visibility">
+      <UniqueIdentifier>{A8A29745-247D-30E1-964A-7CCFC2D070EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\Render\Execution &amp; 3D">
+      <UniqueIdentifier>{BB35A161-C5D6-3EF5-B115-4989D7C172B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\Render\Particle system">
+      <UniqueIdentifier>{92AE9E99-4FAF-3C6E-9AE0-1E11D29E60EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\Render\Font output">
+      <UniqueIdentifier>{A43FC6FD-67F9-3498-B07C-39714F1F7641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\Render\Lighting">
+      <UniqueIdentifier>{314329C4-0E13-3CDB-8D65-F9296FCA9CEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\suns_manager">
+      <UniqueIdentifier>{FB29A851-A463-3CA9-90F5-CCE6ED9D91C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\manager">
+      <UniqueIdentifier>{11302C29-19C1-3AB0-AF45-2FFBFF406586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\effects_manager">
+      <UniqueIdentifier>{17ECC7AE-499D-3B8F-8BE2-45E13977FDAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\ambients">
+      <UniqueIdentifier>{4A5547EB-4F9C-39DB-AA30-37D76B14C6B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\thunderbolts">
+      <UniqueIdentifier>{F1A49630-C41B-373A-86AB-BDF619599A0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\weathers">
+      <UniqueIdentifier>{B5F4C61E-F7A9-3CC1-A044-AA90F23DD9BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\detail">
+      <UniqueIdentifier>{3AE07CC4-33DD-3802-A827-9B835B7EF585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\levels_manager">
+      <UniqueIdentifier>{E36D20E6-A957-3D53-A8C1-F8C39F70BCA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\sound_channels_manager">
+      <UniqueIdentifier>{1498EDA9-15DD-3BDF-BAD2-32486C5D2371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderRef\Execution &amp; 3D">
+      <UniqueIdentifier>{C6380157-5400-321E-B0B9-05BA559D821D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderRef\doug_lea_memory_allocator">
+      <UniqueIdentifier>{94B2B799-F91D-3DA2-9EEC-38CEA6F51016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderRef\Execution &amp; 3D\Visuals">
+      <UniqueIdentifier>{43AFFBA2-8489-3479-A3CC-495A66C8FA86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderRef\Execution &amp; 3D\Device">
+      <UniqueIdentifier>{52CC826F-6D05-30A7-968B-9CD584503A48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\ambients\ambient\effect_id">
+      <UniqueIdentifier>{8ACDA74A-EB60-3657-A871-966F07C79709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\ambients\ambient\sound_id">
+      <UniqueIdentifier>{B9C14C57-DE25-3169-81BB-2472DFCACFDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\Render\Execution &amp; 3D\Shaders">
+      <UniqueIdentifier>{39AA031F-615A-364A-8554-3CD1C16BAC05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\Render\Execution &amp; 3D\TextConsole">
+      <UniqueIdentifier>{4C85A11E-7CBD-36F1-8119-312DA9ABEC9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\text_editor\line_editor_control">
+      <UniqueIdentifier>{B8176E61-9B23-3254-AE29-5E60AAFA7D95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\text_editor\line_editor">
+      <UniqueIdentifier>{2BBA0AB5-FCA0-3A88-8154-8A799CAAEECC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\text_editor\edit_actions">
+      <UniqueIdentifier>{FDD785AF-3A9D-341A-AE64-0AB0061A8AA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\suns_manager\sun\flares">
+      <UniqueIdentifier>{EFF68F8A-4377-3F50-8CED-0D03E8712EB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\suns_manager\sun\gradient">
+      <UniqueIdentifier>{508BC41E-A6BF-3AE0-AE69-8593F8FA9CA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\suns_manager\sun\blend">
+      <UniqueIdentifier>{8708FB29-F11C-3D01-BFC5-6B16DE39C24C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\thunderbolts\collection">
+      <UniqueIdentifier>{ED15C7D1-C359-3F05-B763-09478EE761EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\thunderbolts\thunderbolt_id">
+      <UniqueIdentifier>{FEF42594-8018-3766-B8B4-2E44093E8D1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\thunderbolts\thunderbolt">
+      <UniqueIdentifier>{1626D130-7CAE-3B41-809C-8E597F836880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\Render\Visuals\Skeleton">
+      <UniqueIdentifier>{F73BAA0A-5419-3246-B9BF-FFBAF22AC3D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\weathers\weather">
+      <UniqueIdentifier>{BE2BBE3E-1F1F-3A63-9266-FA1D4F698DE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\sound_channels_manager\channel\source">
+      <UniqueIdentifier>{70578157-1FC8-3396-968E-EFAE44435872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\weathers\weather\time">
+      <UniqueIdentifier>{9A4D707C-8625-339D-A186-C608146A0EAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\sound_channels_manager\channel">
+      <UniqueIdentifier>{D1771843-ED34-3E66-B1E7-EFDE2381AE90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\suns_manager\sun\flares\flare">
+      <UniqueIdentifier>{12663A73-E5FF-379B-813D-406899256654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\suns_manager\sun">
+      <UniqueIdentifier>{D4771E77-7CF3-36DD-B447-936B4B2672AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\effects_manager\effect">
+      <UniqueIdentifier>{34FB7AC7-5DE0-3ADE-ADA0-6C16CA0263EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderRef\Execution &amp; 3D\Visuals\Skeleton">
+      <UniqueIdentifier>{593BF2BA-57F6-3644-8010-E18FC5B35EC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\thunderbolts\thunderbolt\gradient">
+      <UniqueIdentifier>{2DB2FD2A-4EB8-31DB-AA14-588A9E26AC93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Scripting">
+      <UniqueIdentifier>{E6F2373A-2F12-3AF1-9857-6625AF2DAA0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General\Resources">
+      <UniqueIdentifier>{2D06EBCA-4432-39D7-80D9-C8914C369AA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\Render\Execution &amp; 3D\Shaders\Textures">
+      <UniqueIdentifier>{30E8236D-3684-3CCF-8035-DACB35F7CBC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game API\Environment\Effects">
+      <UniqueIdentifier>{E3B1EEB3-7DCD-324F-88C9-43D32602859A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Console\commands">
+      <UniqueIdentifier>{74277C1D-DB5A-3211-A7AC-5A2EF74451FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\environment\ambients\ambient">
+      <UniqueIdentifier>{86F87475-F44E-3184-ABC8-EE51E8D1F755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\Render">
+      <UniqueIdentifier>{8956052C-32F6-3555-BC51-796F85F2123A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\Input">
+      <UniqueIdentifier>{529FC7AC-DDFF-3E00-B60E-CBD62A0D2EB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\Collidable">
+      <UniqueIdentifier>{C6B493C9-238D-3E18-B07A-3B9B35F9E5D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\Sheduler">
+      <UniqueIdentifier>{175A9095-FC2C-3DFC-BEBA-414EE434B4E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces\Physics">
+      <UniqueIdentifier>{C0F40834-DEBF-376D-8982-DE3E8194CB31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game API\GameMaterials">
+      <UniqueIdentifier>{B1C2F2BD-65C1-3E45-8FE4-A04C5349E735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game API\Environment">
+      <UniqueIdentifier>{8C361233-7B6E-34EC-9506-5EAB368D529D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game API\Animator">
+      <UniqueIdentifier>{8B10500C-0A6C-31D1-AFFA-13138C6487B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game API\HUD">
+      <UniqueIdentifier>{54EAEE2E-627D-35B3-8847-D133443E9497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game API\Demo">
+      <UniqueIdentifier>{8498DA64-8901-30E7-8062-43C32D5F20F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game API\Objects">
+      <UniqueIdentifier>{744B9B21-33FF-3F49-A36B-722D6CB5F3D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game API\Cameras">
+      <UniqueIdentifier>{1C029603-C8B3-3320-A7FA-DBEABE989364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game API\Collision">
+      <UniqueIdentifier>{F24ED7BB-FAA3-329B-9012-6DF7A7176C0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game API\Debug">
+      <UniqueIdentifier>{2024BEA7-52A6-35BB-BAFA-BA1DF7A26D7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game API\Feelers">
+      <UniqueIdentifier>{27326E01-D3D6-3700-A53A-49A0DF4EAF58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{37BED7E5-7D70-367B-BDFF-17CDB25D2DFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderRef">
+      <UniqueIdentifier>{6730FED0-3FF7-39E6-ADEF-36DE67DA6027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{7D578728-336A-3966-81FC-876BFA73294D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor">
+      <UniqueIdentifier>{2BAAC3C2-0582-32DB-B6DD-D4E81F9D2DF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game API">
+      <UniqueIdentifier>{89CFA642-B73D-34BF-AA1B-3AD78A1B214C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General">
+      <UniqueIdentifier>{2073399D-6214-303D-8352-A76FD0CF9808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\text_editor">
+      <UniqueIdentifier>{A2182784-A565-3E00-A639-2F71564F262B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core">
+      <UniqueIdentifier>{1229E399-DDBD-3F7B-AAFA-5F4DF9A07DAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Collision Core">
+      <UniqueIdentifier>{B6FF49F3-1E4B-39BE-90A1-EA5355BDDC27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Noise">
+      <UniqueIdentifier>{168EF6AA-C0E0-3EF7-A50C-91A6DCBE869D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Console">
+      <UniqueIdentifier>{04330D17-C040-3B7E-A7FF-83CB303EE6A8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

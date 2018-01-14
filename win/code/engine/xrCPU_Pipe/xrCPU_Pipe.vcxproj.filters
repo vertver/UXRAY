@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCPU_Pipe\xrSkin2W.cpp">
+      <Filter>Skinning</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCPU_Pipe\xrSkin2W_SSE.cpp">
+      <Filter>Skinning</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCPU_Pipe\xrSkin2W_thread.cpp">
+      <Filter>Skinning</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCPU_Pipe\StdAfx.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCPU_Pipe\xrCPU_Pipe.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCPU_Pipe\ttapi.cpp">
+      <Filter>TTAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCPU_Pipe\PLC.cpp">
+      <Filter>PLC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCPU_Pipe\resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCPU_Pipe\StdAfx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCPU_Pipe\xrCPU_Pipe.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCPU_Pipe\ttapi.h">
+      <Filter>TTAPI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\engine\xrCPU_Pipe\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\UXRAY_exp\code\engine\xrCPU_Pipe\xrCPU_Pipe.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{50288DEE-43DB-3790-B3A1-BC0EE83BFCF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{ED8D2039-EE74-3F49-A7CA-D705B59B694D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{08E9FA64-6484-36CE-9FB7-03F1DC076933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLC">
+      <UniqueIdentifier>{9DF2889D-B1DC-340D-A2D7-F181EF4A978D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skinning">
+      <UniqueIdentifier>{401A36CF-39C0-3EE3-BDA9-36B82B37C16B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TTAPI">
+      <UniqueIdentifier>{A0696CFC-8DA6-31EE-8FE8-8CD9BE3492B9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{18A3D482-EA33-3A41-842D-8EA2E5CFA23B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>xrPhysics</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\SDK 0.7 Full Win32\X-Ray_CoP_SDK\bin\x86\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">xrPhysics.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">xrPhysics</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\SDK 0.7 Full Win32\X-Ray_CoP_SDK\bin\x86\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">xrPhysics.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">xrPhysics</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrPhysics;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;E:\UXRAY_exp\code\3rd-party\libogg\include;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\openal\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await /permissive-</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DEBUG;XRPHYSICS_EXPORTS;MSVC;dSINGLE;_SECURE_SCL=0;FMT_HEADER_ONLY=1;CMAKE_INTDIR="Debug";xrPhysics_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DEBUG;XRPHYSICS_EXPORTS;MSVC;dSINGLE;_SECURE_SCL=0;FMT_HEADER_ONLY=1;CMAKE_INTDIR=\"Debug\";xrPhysics_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrPhysics;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;E:\UXRAY_exp\code\3rd-party\libogg\include;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\openal\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrPhysics;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;E:\UXRAY_exp\code\3rd-party\libogg\include;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\openal\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\xrSound\Debug\xrSound.lib;..\xrCDB\Debug\xrCDB.lib;..\..\3rd-party\ode\Debug\ode.lib;..\xrCore\Debug\xrCore.lib;..\..\3rd-party\dxerr2015\Debug\dxerr2015.lib;version.lib;dbghelp.lib;faultrep.lib;psapi.lib;..\xrAPI\Debug\xrAPI.lib;..\..\3rd-party\libvorbisfile\Debug\libvorbisfile.lib;..\..\3rd-party\libvorbis\Debug\libvorbis.lib;..\..\3rd-party\libogg\Debug\libogg.lib;..\..\3rd-party\openal\Debug\openal32.lib;winmm.lib;dsound.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/UXRAY_exp/win/code/engine/xrPhysics/Debug/xrPhysics.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>E:/SDK 0.7 Full Win32/X-Ray_CoP_SDK/pdb/x86/Debug/xrPhysics.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrPhysics;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;E:\UXRAY_exp\code\3rd-party\libogg\include;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\openal\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await /permissive-</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;XRPHYSICS_EXPORTS;MSVC;dSINGLE;_SECURE_SCL=0;FMT_HEADER_ONLY=1;CMAKE_INTDIR="RelWithDebInfo";xrPhysics_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;XRPHYSICS_EXPORTS;MSVC;dSINGLE;_SECURE_SCL=0;FMT_HEADER_ONLY=1;CMAKE_INTDIR=\"RelWithDebInfo\";xrPhysics_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrPhysics;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;E:\UXRAY_exp\code\3rd-party\libogg\include;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\openal\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrPhysics;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;E:\UXRAY_exp\code\3rd-party\libogg\include;E:\UXRAY_exp\code\3rd-party\libvorbis\include;E:\UXRAY_exp\code\3rd-party\openal\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\xrSound\RelWithDebInfo\xrSound.lib;..\xrCDB\RelWithDebInfo\xrCDB.lib;..\..\3rd-party\ode\RelWithDebInfo\ode.lib;..\xrCore\RelWithDebInfo\xrCore.lib;..\..\3rd-party\dxerr2015\RelWithDebInfo\dxerr2015.lib;version.lib;dbghelp.lib;faultrep.lib;psapi.lib;..\xrAPI\RelWithDebInfo\xrAPI.lib;..\..\3rd-party\libvorbisfile\RelWithDebInfo\libvorbisfile.lib;..\..\3rd-party\libvorbis\RelWithDebInfo\libvorbis.lib;..\..\3rd-party\libogg\RelWithDebInfo\libogg.lib;..\..\3rd-party\openal\RelWithDebInfo\openal32.lib;winmm.lib;dsound.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/UXRAY_exp/win/code/engine/xrPhysics/RelWithDebInfo/xrPhysics.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>E:/SDK 0.7 Full Win32/X-Ray_CoP_SDK/pdb/x86/RelWithDebInfo/xrPhysics.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\engine\xrPhysics\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/UXRAY_exp/code/engine/xrPhysics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/code/engine/xrPhysics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/code/engine/xrPhysics/CMakeLists.txt;E:\UXRAY_exp\code\engine\xrPhysics\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrPhysics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\engine\xrPhysics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/UXRAY_exp/code/engine/xrPhysics/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/code/engine/xrPhysics/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/code/engine/xrPhysics/CMakeLists.txt;E:\UXRAY_exp\code\engine\xrPhysics\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrPhysics\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\engine\xrPhysics\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PhysicsShellAnimator.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PhysicsShellAnimator.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PhysicsShellAnimatorBoneData.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHIsland.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHIsland.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\dSortTriPrimitive.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\dTriBox.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\dTriCallideK.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\dTriCylinder.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\dTriList.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\dTriSphere.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\__aabb_tri.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\dcTriangle.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\dcTriListCollider.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\dSortTriPrimitive.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\dTriBox.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\dTriCollideK.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\dTriColliderCommon.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\dTriColliderMath.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\dTriCylinder.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\dTriList.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\dTriSphere.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\dxTriList.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\tri-colliderknoopc\TriPrimitiveCollideClassDef.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\MovementBoxDynamicActivate.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHCharacter.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\IColisiondamageInfo.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\MovementBoxDynamicActivate.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHCharacter.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHStaticGeomShell.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\IPHStaticGeomShell.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHStaticGeomShell.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\ElevatorState.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHSimpleCharacter.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\ElevatorState.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\iclimableobject.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\IElevatorState.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHSimpleCharacter.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHSimpleCharacterInline.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PhysicsExternalCommon.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\DamageSource.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\ode_include.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\ode_redefine.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PhysicsCommon.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PhysicsExternalCommon.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHImpact.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\physics_scripted.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\iphysics_scripted.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\physics_scripted.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHContactBodyEffector.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHBaseBodyEffector.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHContactBodyEffector.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHAICharacter.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHAICharacter.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHFracture.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHJointDestroyInfo.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHShellSplitter.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHFracture.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHJointDestroyInfo.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHShellSplitter.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHCollideValidator.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\ICollideValidator.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHCollideValidator.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\collisiondamagereceiver.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\icollisiondamagereceiver.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\IActivationShape.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHActivationShape.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\IActivationShape.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHActivationShape.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\MathUtils.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHDynamicData.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\CalculateTriangle.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\MathUtils.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\MathUtilsOde.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\matrix_utils.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHDynamicData.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\debug_output.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\debug_output.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\ExtendedGeom.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\Geometry.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHGeometryOwner.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\ExtendedGeom.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\Geometry.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHGeometryOwner.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\BlockAllocator.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\CycleConstStorage.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\dcylinder\dCylinder.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\dcylinder\dCylinder.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\GeometryBits.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\params.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHWorld.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\Physics.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\GeometryBits.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\IPHWorld.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\params.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHItemList.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHWorld.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\Physics.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHCapture.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHCaptureInit.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\IPHCapture.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHCapture.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHMoveStorage.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHMoveStorage.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\phvalide.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\ph_valid_ode.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\phvalide.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHValideValues.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\dRayMotions.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\dRayMotions.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\console_vars.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\ShellHit.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\console_vars.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PhysicsShell.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\IPhysicsShellHolder.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PhysicsShell.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\xrPhysics.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\stdafx.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\xrPhysics.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHDefs.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\DisablingParams.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHDisabling.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\DisablingParams.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHDisabling.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHActorCharacter.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHActorCharacter.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHActorCharacterInline.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHJoint.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHJoint.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\ActorCameraCollision.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\ActorCameraCollision.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHShell.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHShellActivate.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHShellNetState.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHShell.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHShellBuildJoint.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHSplitedShell.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHSplitedShell.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHElement.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHElementNetState.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHElement.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHElementInline.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHInterpolation.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHInterpolation.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrPhysics\PHObject.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHObject.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrPhysics\PHUpdateObject.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrServerEntities\PHNetState.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrServerEntities\PHNetState.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\UXRAY_exp\win\ZERO_CHECK.vcxproj">
+      <Project>{EF8DA05E-911F-3D8C-8BD2-B802AEE27239}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\dxerr2015\dxerr2015.vcxproj">
+      <Project>{4A5D0240-67B7-3D48-8580-8E5DB2FDD0CC}</Project>
+      <Name>dxerr2015</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\libogg\libogg.vcxproj">
+      <Project>{C92FF9AF-54A6-3BE9-9298-6A0F8BEE136E}</Project>
+      <Name>libogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\libvorbis\libvorbis.vcxproj">
+      <Project>{85AC1446-5A17-3A9E-BC49-FE0A2219BAA6}</Project>
+      <Name>libvorbis</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\libvorbisfile\libvorbisfile.vcxproj">
+      <Project>{8F07A5B9-FB81-3122-9747-5EA1410DF3FA}</Project>
+      <Name>libvorbisfile</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\ode\ode.vcxproj">
+      <Project>{30A0314E-C4DC-310C-B017-FC73F363E362}</Project>
+      <Name>ode</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\openal\openal32.vcxproj">
+      <Project>{BA51158F-7A5B-3CA7-BF6D-2216928C696D}</Project>
+      <Name>openal32</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrAPI\xrAPI.vcxproj">
+      <Project>{39C14EE6-45AC-3955-AB5C-FFF77039F4A7}</Project>
+      <Name>xrAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrCDB\xrCDB.vcxproj">
+      <Project>{0F9F58D4-3CAF-3655-87A4-14691B6117CB}</Project>
+      <Name>xrCDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrCore\xrCore.vcxproj">
+      <Project>{042014C9-99DC-3407-8846-089F7A9AB106}</Project>
+      <Name>xrCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrSound\xrSound.vcxproj">
+      <Project>{E5ABB1E3-F287-3EBF-9D50-94D8961EFB62}</Project>
+      <Name>xrSound</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\minizip\ioapi.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\minizip\iowin32.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\minizip\mztools.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\minizip\unzip.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\3rd-party\minizip\zip.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\minizip\crypt.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\minizip\ioapi.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\minizip\iowin32.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\minizip\mztools.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\minizip\unzip.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\3rd-party\minizip\zip.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\3rd-party\minizip\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{2BC299F2-9570-3C3F-AE5E-1AABBE4879FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{A90ADB9F-0E60-38AC-A933-E625587C875F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\LzHuf.cpp">
+      <Filter>Compression\lz</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo_init.cpp">
+      <Filter>Compression\lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo1x_1.cpp">
+      <Filter>Compression\lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo1x_9x.cpp">
+      <Filter>Compression\lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo1x_d1.cpp">
+      <Filter>Compression\lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo1x_d2.cpp">
+      <Filter>Compression\lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo1x_d3.cpp">
+      <Filter>Compression\lzo</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\rt_compressor.cpp">
+      <Filter>Compression\rt</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\rt_compressor9.cpp">
+      <Filter>Compression\rt</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrDebugNew.cpp">
+      <Filter>Debug core</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\FileSystem.cpp">
+      <Filter>FS</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\FS.cpp">
+      <Filter>FS</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\LocatorAPI.cpp">
+      <Filter>FS</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\LocatorAPI_defs.cpp">
+      <Filter>FS</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\log.cpp">
+      <Filter>FS</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\NET_utils.cpp">
+      <Filter>FS</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\Xr_ini.cpp">
+      <Filter>FS</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\stream_reader.cpp">
+      <Filter>FS\stream reader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\file_stream_reader.cpp">
+      <Filter>FS\file stream reader</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\FTimer.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\stdafx.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrCore.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\stacktrace_collector.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\_compressed_normal.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\_math.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\_sphere.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\dump_string.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\cpuid.cpp">
+      <Filter>Math\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\_std_extensions.cpp">
+      <Filter>Math\Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\clsid.cpp">
+      <Filter>Math\Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\string_concatenations.cpp">
+      <Filter>Math\Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xr_trims.cpp">
+      <Filter>Math\Extensions</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\memory_allocation_stats.cpp">
+      <Filter>Memory manager</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\memory_usage.cpp">
+      <Filter>Memory manager</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory.cpp">
+      <Filter>Memory manager</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory_align.cpp">
+      <Filter>Memory manager</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory_debug.cpp">
+      <Filter>Memory manager</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory_POOL.cpp">
+      <Filter>Memory manager</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory_subst_msvc.cpp">
+      <Filter>Memory manager</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\ptmalloc3\malloc.c">
+      <Filter>Memory manager\dlmalloc\allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\ptmalloc3\sysdeps\win32\win32.c">
+      <Filter>Memory manager\dlmalloc\allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\doug_lea_allocator.cpp">
+      <Filter>Memory manager\dlmalloc\wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\memory_monitor.cpp">
+      <Filter>memory_monitor</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\os_clipboard.cpp">
+      <Filter>OS</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\crc32.cpp">
+      <Filter>shared memory/string library</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xr_shared.cpp">
+      <Filter>shared memory/string library</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrsharedmem.cpp">
+      <Filter>shared memory/string library</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrstring.cpp">
+      <Filter>shared memory/string library</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\lzhuf.h">
+      <Filter>Compression\lz</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_config1x.h">
+      <Filter>Compression\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo_conf.h">
+      <Filter>Compression\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo_config.h">
+      <Filter>Compression\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo_dict.h">
+      <Filter>Compression\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo_ptr.h">
+      <Filter>Compression\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzo1x.h">
+      <Filter>Compression\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzoconf.h">
+      <Filter>Compression\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_lzodefs.h">
+      <Filter>Compression\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_miniacc.h">
+      <Filter>Compression\lzo</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\rt_compressor.h">
+      <Filter>Compression\rt</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrDebug.h">
+      <Filter>Debug core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrDebug_macros.h">
+      <Filter>Debug core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\make_string.h">
+      <Filter>Debug core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\FileSystem.h">
+      <Filter>FS</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\FS.h">
+      <Filter>FS</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\FS_internal.h">
+      <Filter>FS</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\LocatorAPI.h">
+      <Filter>FS</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\LocatorAPI_defs.h">
+      <Filter>FS</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\log.h">
+      <Filter>FS</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\net_utils.h">
+      <Filter>FS</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xr_ini.h">
+      <Filter>FS</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\stream_reader.h">
+      <Filter>FS\stream reader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\file_stream_reader.h">
+      <Filter>FS\file stream reader</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\intrusive_ptr.h">
+      <Filter>intrusive_ptr</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\FTimer.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\resource.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\stdafx.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrCore.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrCore_platform.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\stacktrace_collector.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\conv.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xr_writer.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\win\generated\xr_config.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_bitwise.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_color.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_compressed_normal.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_cylinder.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_fbox.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_fbox2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_flags.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_matrix33.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_obb.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_plane.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_plane2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_quaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_random.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_rect.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_sphere.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_types.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_vector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_vector3d.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_vector3d_ext.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_vector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\dump_string.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\vector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\cpuid.h">
+      <Filter>Math\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_std_extensions.h">
+      <Filter>Math\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\_stl_extensions.h">
+      <Filter>Math\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\clsid.h">
+      <Filter>Math\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\fastdelegate.h">
+      <Filter>Math\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\string_concatenations.h">
+      <Filter>Math\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xr_trims.h">
+      <Filter>Math\Extensions</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\buffer_vector.h">
+      <Filter>Math\Extensions\buffer_vector</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\buffer_vector_inline.h">
+      <Filter>Math\Extensions\buffer_vector</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\FixedMap.h">
+      <Filter>Math\STLext</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\FixedSet.h">
+      <Filter>Math\STLext</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\FixedVector.h">
+      <Filter>Math\STLext</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrPool.h">
+      <Filter>Math\STLext</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory.h">
+      <Filter>Memory manager</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory_align.h">
+      <Filter>Memory manager</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrMEMORY_POOL.h">
+      <Filter>Memory manager</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory_pure.h">
+      <Filter>Memory manager</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrMemory_subst_msvc.h">
+      <Filter>Memory manager</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\ptmalloc3\malloc-2.8.3.h">
+      <Filter>Memory manager\dlmalloc\allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\doug_lea_allocator.h">
+      <Filter>Memory manager\dlmalloc\wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\memory_allocator_options.h">
+      <Filter>Memory manager\dlmalloc\wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\memory_monitor.h">
+      <Filter>memory_monitor</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\os_clipboard.h">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xr_resource.h">
+      <Filter>shared memory/string library</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xr_shared.h">
+      <Filter>shared memory/string library</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrsharedmem.h">
+      <Filter>shared memory/string library</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCore\xrstring.h">
+      <Filter>shared memory/string library</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\engine\xrCore\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\UXRAY_exp\code\engine\xrCore\xrCore.rc">
+      <Filter>Kernel</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FS\file stream reader">
+      <UniqueIdentifier>{12A460D3-4A23-331F-9D53-54CE0188D545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FS\stream reader">
+      <UniqueIdentifier>{E03BFAB8-5174-38CF-A5CE-1EB294B9EC56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory manager\dlmalloc\allocator">
+      <UniqueIdentifier>{98A02A6B-1AFF-3003-96FE-07180454B5A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory manager\dlmalloc\wrapper">
+      <UniqueIdentifier>{63D1D94B-AB1D-3907-B0E4-79193776CE86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\CPU">
+      <UniqueIdentifier>{055C68ED-B28D-3A06-84A5-1847822CC6BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Extensions">
+      <UniqueIdentifier>{83F5EADE-553A-31A5-8E53-C4090F96671B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\STLext">
+      <UniqueIdentifier>{5002676C-156D-3E5D-947A-7EEAC6EF1AD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compression\lz">
+      <UniqueIdentifier>{5FDB4044-EADF-38C1-A614-799AA4B8FDE9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compression\lzo">
+      <UniqueIdentifier>{2D5CB9E7-850E-3E4E-8BCE-F14C888E7E7E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compression\rt">
+      <UniqueIdentifier>{F24FAF25-7A67-3B9D-A739-9017D56918CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory manager\dlmalloc">
+      <UniqueIdentifier>{A3AABCF1-DA64-365E-8F48-D22F37FF2F0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Extensions\buffer_vector">
+      <UniqueIdentifier>{5D918315-C0A0-3697-8343-E31EB868E762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compression">
+      <UniqueIdentifier>{AD6A6981-BBA5-3EF5-99B7-F3CC77F4BE01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug core">
+      <UniqueIdentifier>{323F2AEE-4BA1-35BB-9B16-699FE72B7717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FS">
+      <UniqueIdentifier>{1C3A8BFF-0573-3A3E-9FB0-DA127E29693B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="intrusive_ptr">
+      <UniqueIdentifier>{671AECA1-FEB9-39E1-973A-FE6F0BFC319D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{ED8D2039-EE74-3F49-A7CA-D705B59B694D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{03450B03-C157-3A34-B8AB-9F21471F8FE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory manager">
+      <UniqueIdentifier>{CA43C29C-B71F-39BA-A387-8E6470562F60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory_monitor">
+      <UniqueIdentifier>{1DBA7646-F34A-3D6F-8E2F-D7F3FEEA85C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS">
+      <UniqueIdentifier>{CF8BEEEE-56F1-34B9-AC9C-514C3B606268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shared memory/string library">
+      <UniqueIdentifier>{A67DFD0F-D2A2-3B8A-812D-1A71E4BDBF85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

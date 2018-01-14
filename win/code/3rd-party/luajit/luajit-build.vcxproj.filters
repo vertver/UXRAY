@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\3rd-party\luajit\CMakeLists.txt" />
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\ab3a45584e5288d3a81f5fe6c72fd4f1\luajit-build-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\ab3a45584e5288d3a81f5fe6c72fd4f1\luajit-build-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\ab3a45584e5288d3a81f5fe6c72fd4f1\luajit-build-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\ab3a45584e5288d3a81f5fe6c72fd4f1\luajit-build-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\ab3a45584e5288d3a81f5fe6c72fd4f1\luajit-build-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\ab3a45584e5288d3a81f5fe6c72fd4f1\luajit-build-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\ab3a45584e5288d3a81f5fe6c72fd4f1\luajit-build-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\e1aec64ca5ae349b7ba6d7df908600de\luajit-build-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\b840f3acfa9bf5af868369530c7d68e2\luajit-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\UXRAY_exp\win\code\3rd-party\luajit\CMakeFiles\luajit-build" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{870F0C32-A457-38DF-B410-46F443BD032D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

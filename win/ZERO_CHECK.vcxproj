@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EF8DA05E-911F-3D8C-8BD2-B802AEE27239}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\win\CMakeFiles\efbd399895f024bfef28d6fc2ac1e9b7\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/UXRAY_exp/win/xray-1.7.0.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/win/CMakeFiles/efbd399895f024bfef28d6fc2ac1e9b7/generate.stamp.rule;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;E:\UXRAY_exp\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\ATI\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\DPlay\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\NVAPI\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\ZLib\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\boost\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\cs\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\dxerr2015\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\dxsdk\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\eax\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\fmtlib\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\fmtlib\fmt\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\fmtlib\support\cmake\cxx11.cmake;E:\UXRAY_exp\code\3rd-party\imdexlib\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\libogg\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\libtheora\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\libvorbis\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\libvorbisfile\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\luabind\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\luajit\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\minizip\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\ode\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\openal\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrAPI\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrCDB\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrCPU_Pipe\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrCore\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrEngine\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrGame\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrNetServer\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrParticles\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrPhysics\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrRenderPC_R1\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrRenderPC_R2\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrRenderPC_R3\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrRenderPC_R4\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrSound\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrXMLParser\CMakeLists.txt;E:\UXRAY_exp\code\engine\xr_config.h.in;E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CMakeCCompiler.cmake;E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CMakeCXXCompiler.cmake;E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CMakeRCCompiler.cmake;E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CMakeSystem.cmake;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\tmp\luajit-build-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\dxsdk\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\ZLib\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\minizip\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\dxerr2015\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\ode\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\openal\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\luajit\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\luabind\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\imdexlib\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\libogg\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\libtheora\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\libvorbis\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\libvorbisfile\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\ATI\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\NVAPI\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\DPlay\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\eax\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\cs\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\fmtlib\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\fmtlib\fmt\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\boost\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrCore\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrAPI\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrCDB\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrXMLParser\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrSound\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrNetServer\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrEngine\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrCPU_Pipe\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrParticles\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrPhysics\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrGame\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrRenderPC_R1\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrRenderPC_R2\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrRenderPC_R3\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrRenderPC_R4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/UXRAY_exp/win/xray-1.7.0.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/win/CMakeFiles/efbd399895f024bfef28d6fc2ac1e9b7/generate.stamp.rule;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;E:\UXRAY_exp\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\ATI\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\DPlay\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\NVAPI\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\ZLib\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\boost\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\cs\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\dxerr2015\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\dxsdk\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\eax\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\fmtlib\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\fmtlib\fmt\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\fmtlib\support\cmake\cxx11.cmake;E:\UXRAY_exp\code\3rd-party\imdexlib\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\libogg\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\libtheora\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\libvorbis\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\libvorbisfile\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\luabind\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\luajit\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\minizip\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\ode\CMakeLists.txt;E:\UXRAY_exp\code\3rd-party\openal\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrAPI\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrCDB\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrCPU_Pipe\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrCore\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrEngine\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrGame\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrNetServer\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrParticles\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrPhysics\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrRenderPC_R1\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrRenderPC_R2\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrRenderPC_R3\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrRenderPC_R4\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrSound\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrXMLParser\CMakeLists.txt;E:\UXRAY_exp\code\engine\xr_config.h.in;E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CMakeCCompiler.cmake;E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CMakeCXXCompiler.cmake;E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CMakeRCCompiler.cmake;E:\UXRAY_exp\win\CMakeFiles\3.10.0-rc5\CMakeSystem.cmake;E:\UXRAY_exp\win\code\3rd-party\luajit\luajit-build-prefix\tmp\luajit-build-cfgcmd.txt.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\dxsdk\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\ZLib\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\minizip\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\dxerr2015\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\ode\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\openal\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\luajit\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\luabind\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\imdexlib\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\libogg\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\libtheora\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\libvorbis\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\libvorbisfile\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\ATI\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\NVAPI\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\DPlay\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\eax\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\cs\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\fmtlib\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\fmtlib\fmt\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\3rd-party\boost\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrCore\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrAPI\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrCDB\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrXMLParser\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrSound\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrNetServer\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrEngine\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrCPU_Pipe\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrParticles\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrPhysics\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrGame\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrRenderPC_R1\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrRenderPC_R2\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrRenderPC_R3\CMakeFiles\generate.stamp;E:\UXRAY_exp\win\code\engine\xrRenderPC_R4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

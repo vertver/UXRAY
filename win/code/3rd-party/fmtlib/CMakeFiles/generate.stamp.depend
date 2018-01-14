@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+E:/UXRAY_exp/code/3rd-party/fmtlib/CMakeLists.txt
+E:/UXRAY_exp/code/3rd-party/fmtlib/support/cmake/cxx11.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CheckSymbolExists.cmake

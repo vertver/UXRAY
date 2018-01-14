@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0F9F58D4-3CAF-3655-87A4-14691B6117CB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>xrCDB</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\SDK 0.7 Full Win32\X-Ray_CoP_SDK\bin\x86\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">xrCDB.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">xrCDB</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\SDK 0.7 Full Win32\X-Ray_CoP_SDK\bin\x86\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">xrCDB.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">xrCDB</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrCDB;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await /permissive-</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DEBUG;XRCDB_EXPORTS;FMT_HEADER_ONLY=1;CMAKE_INTDIR="Debug";xrCDB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;DEBUG;XRCDB_EXPORTS;FMT_HEADER_ONLY=1;CMAKE_INTDIR=\"Debug\";xrCDB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrCDB;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrCDB;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\xrAPI\Debug\xrAPI.lib;..\xrCore\Debug\xrCore.lib;winmm.lib;..\..\3rd-party\dxerr2015\Debug\dxerr2015.lib;version.lib;dbghelp.lib;winmm.lib;faultrep.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/UXRAY_exp/win/code/engine/xrCDB/Debug/xrCDB.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>E:/SDK 0.7 Full Win32/X-Ray_CoP_SDK/pdb/x86/Debug/xrCDB.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrCDB;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /await /permissive-</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;XRCDB_EXPORTS;FMT_HEADER_ONLY=1;CMAKE_INTDIR="RelWithDebInfo";xrCDB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;XRCDB_EXPORTS;FMT_HEADER_ONLY=1;CMAKE_INTDIR=\"RelWithDebInfo\";xrCDB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrCDB;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\UXRAY_exp\code\3rd-party;E:\UXRAY_exp\code\engine;E:\UXRAY_exp\code\utils;E:\UXRAY_exp\win\generated;E:\UXRAY_exp\code\engine\xrCDB;E:\UXRAY_exp\code\3rd-party\fmtlib;E:\UXRAY_exp\code\3rd-party\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\xrAPI\RelWithDebInfo\xrAPI.lib;..\xrCore\RelWithDebInfo\xrCore.lib;winmm.lib;..\..\3rd-party\dxerr2015\RelWithDebInfo\dxerr2015.lib;version.lib;dbghelp.lib;winmm.lib;faultrep.lib;psapi.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/UXRAY_exp/win/code/engine/xrCDB/RelWithDebInfo/xrCDB.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>E:/SDK 0.7 Full Win32/X-Ray_CoP_SDK/pdb/x86/RelWithDebInfo/xrCDB.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\engine\xrCDB\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/UXRAY_exp/code/engine/xrCDB/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/code/engine/xrCDB/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/UXRAY_exp/code/engine/xrCDB/CMakeLists.txt;E:\UXRAY_exp\code\engine\xrCDB\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrCDB\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\UXRAY_exp\win\code\engine\xrCDB\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/UXRAY_exp/code/engine/xrCDB/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/UXRAY_exp -BE:/UXRAY_exp/win --check-stamp-file E:/UXRAY_exp/win/code/engine/xrCDB/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/UXRAY_exp/code/engine/xrCDB/CMakeLists.txt;E:\UXRAY_exp\code\engine\xrCDB\CMakeLists.txt;E:\UXRAY_exp\code\engine\xrCDB\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\UXRAY_exp\win\code\engine\xrCDB\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\ISpatial.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\ISpatial.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\ISpatial_q_box.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\ISpatial_q_frustum.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\ISpatial_q_ray.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\ISpatial_verify.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\xr_area.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\xr_area_query.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\xr_area.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\xr_area_raypick.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\xr_collide_defs.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\xrXRC.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\xrXRC.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\Frustum.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\Frustum.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\StdAfx.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\xrCDB.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\xrCDB.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\xrCDB_box.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\xrCDB_Collector.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\xrCDB_frustum.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\xrCDB_ray.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_AABB.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_AABBCollider.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_AABBTree.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_BVTCache.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_BoundingSphere.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_BoxBoxOverlap.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Collider.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Common.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Container.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_FPU.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Matrix3x3.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Matrix4x4.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_MemoryMacros.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Model.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_OBB.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_OBBCollider.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_OptimizedTree.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Plane.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_PlanesAABBOverlap.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_PlanesCollider.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_PlanesTriOverlap.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Point.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Preprocessor.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Ray.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_RayAABBOverlap.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_RayCollider.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_RayTriOverlap.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Settings.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_SphereAABBOverlap.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_SphereCollider.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_SphereTriOverlap.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_TreeBuilders.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_TreeCollider.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_TriBoxOverlap.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_TriTriOverlap.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Triangle.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Types.h" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_VolumeCollider.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_AABB.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_AABBCollider.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_AABBTree.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Collider.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Common.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Container.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Matrix3x3.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Matrix4x4.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Model.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_OBB.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_OBBCollider.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_OptimizedTree.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Plane.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_PlanesCollider.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Point.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Ray.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_RayCollider.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_SphereCollider.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_TreeBuilders.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_TreeCollider.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_Triangle.cpp" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\OPC_VolumeCollider.cpp" />
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrCDB\Opcode.h" />
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrCDB\Opcode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\UXRAY_exp\win\ZERO_CHECK.vcxproj">
+      <Project>{EF8DA05E-911F-3D8C-8BD2-B802AEE27239}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\3rd-party\dxerr2015\dxerr2015.vcxproj">
+      <Project>{4A5D0240-67B7-3D48-8580-8E5DB2FDD0CC}</Project>
+      <Name>dxerr2015</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrAPI\xrAPI.vcxproj">
+      <Project>{39C14EE6-45AC-3955-AB5C-FFF77039F4A7}</Project>
+      <Name>xrAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\UXRAY_exp\win\code\engine\xrCore\xrCore.vcxproj">
+      <Project>{042014C9-99DC-3407-8846-089F7A9AB106}</Project>
+      <Name>xrCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

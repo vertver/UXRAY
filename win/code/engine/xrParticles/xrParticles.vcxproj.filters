@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrParticles\stdafx.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrParticles\noise.cpp">
+      <Filter>PAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrParticles\particle_actions.cpp">
+      <Filter>PAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrParticles\particle_actions_collection.cpp">
+      <Filter>PAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrParticles\particle_actions_collection_io.cpp">
+      <Filter>PAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrParticles\particle_core.cpp">
+      <Filter>PAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrParticles\particle_effect.cpp">
+      <Filter>PAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\UXRAY_exp\code\engine\xrParticles\particle_manager.cpp">
+      <Filter>PAPI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrParticles\psystem.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrParticles\stdafx.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrParticles\noise.h">
+      <Filter>PAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrParticles\particle_actions.h">
+      <Filter>PAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrParticles\particle_actions_collection.h">
+      <Filter>PAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrParticles\particle_core.h">
+      <Filter>PAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrParticles\particle_effect.h">
+      <Filter>PAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\UXRAY_exp\code\engine\xrParticles\particle_manager.h">
+      <Filter>PAPI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\UXRAY_exp\code\engine\xrParticles\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{ED8D2039-EE74-3F49-A7CA-D705B59B694D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PAPI">
+      <UniqueIdentifier>{43F02634-81A5-3734-88DB-ED9AA06CE4B9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
