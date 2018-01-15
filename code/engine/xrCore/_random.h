@@ -1,3 +1,4 @@
+// Random 
 #ifndef _LOCAL_RAND
 #define _LOCAL_RAND
 

@@ -1,9 +1,16 @@
+/*******************
+*
+* The types of classes.
+* Includes types of defs, limits and strings.
+*
+********************/
 #pragma once
 
 #include <cstdint>
 #include <limits>
 
-// Type defs
+/******************* type:defs ********************/
+
 using s8 = std::int8_t;
 using u8 = std::uint8_t;
 
@@ -22,7 +29,8 @@ using f64 = double;
 using pstr = char*;
 using pcstr = const char*;
 
-// Type limits
+/******************* type:limits ********************/
+
 template <typename T>
 constexpr auto type_max = std::numeric_limits<T>::max();
 
@@ -55,6 +63,8 @@ constexpr double dbl_zero = type_zero<double>;
 constexpr double dbl_eps = type_epsilon<double>;
 
 constexpr int max_path = 260;
+
+/******************* type:string ********************/
 
 using string16 = char[16];
 using string32 = char[32];

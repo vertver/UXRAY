@@ -8,7 +8,7 @@
 #include <memory>
 #include <intrin.h>
 
-/***
+/*****************************************************
  *
  * int _cpuid (_p_info *pinfo)
  *
@@ -113,22 +113,24 @@ unsigned int query_processor_info(processor_info* pinfo) {
     }
 
     if (f_1_EDX[23])
-        pinfo->features |= static_cast<u32>(CpuFeature::Mmx);
+        pinfo->features |= static_cast<u32>(CpuFeature::MMX);
     if (f_1_EDX[25])
-        pinfo->features |= static_cast<u32>(CpuFeature::Sse);
+        pinfo->features |= static_cast<u32>(CpuFeature::SSE);
     if (f_1_EDX[26])
-        pinfo->features |= static_cast<u32>(CpuFeature::Sse2);
+        pinfo->features |= static_cast<u32>(CpuFeature::SSE2);
     if (isAmd && f_81_EDX[31])
-        pinfo->features |= static_cast<u32>(CpuFeature::_3dNow);
+        pinfo->features |= static_cast<u32>(CpuFeature::AMD_3DNow);
 
     if (f_1_ECX[0])
-        pinfo->features |= static_cast<u32>(CpuFeature::Sse3);
+        pinfo->features |= static_cast<u32>(CpuFeature::SSE3);
     if (f_1_ECX[9])
-        pinfo->features |= static_cast<u32>(CpuFeature::Ssse3);
+        pinfo->features |= static_cast<u32>(CpuFeature::SSSE3);
     if (f_1_ECX[19])
-        pinfo->features |= static_cast<u32>(CpuFeature::Sse41);
+        pinfo->features |= static_cast<u32>(CpuFeature::SSE41);
     if (f_1_ECX[20])
-        pinfo->features |= static_cast<u32>(CpuFeature::Sse42);
+        pinfo->features |= static_cast<u32>(CpuFeature::SSE42);
+	if (f_1_ECX[28])
+		pinfo->features |= static_cast<u32>(CpuFeature::AVX);
 
     __cpuid(cpui.data(), 1);
 
@@ -140,7 +142,8 @@ unsigned int query_processor_info(processor_info* pinfo) {
     pinfo->model = (cpui[0] >> 4) & 0xf;
     pinfo->stepping = cpui[0] & 0xf;
 
-    // Calculate available processors
+	/******************* Calculate available processors ********************/
+
     ULONG_PTR pa_mask_save, sa_mask_stub = 0;
     GetProcessAffinityMask(GetCurrentProcess(), &pa_mask_save, &sa_mask_stub);
 
@@ -178,8 +181,25 @@ unsigned int query_processor_info(processor_info* pinfo) {
     // All logical processors
     pinfo->n_threads = logicalProcessorCount;
     pinfo->affinity_mask = pa_mask_save;
-    pinfo->n_cores = processorCoreCount;
+
+
+	/*******************
+	*
+	* count the number of threads (logical and physical)
+	* (logical and physical)
+	*
+	********************/
+
+	if (pinfo->hasFeature(CpuFeature::HT))
+	{
+		pinfo-> n_cores = pinfo-> n_threads / 2;
+	}
+	else
+	{
+		pinfo-> n_cores = pinfo-> n_threads;
+	}
 
     return pinfo->features;
 }
+
 #endif

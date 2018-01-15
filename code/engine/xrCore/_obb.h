@@ -3,7 +3,7 @@
 
 template <class T>
 struct _obb {
-public:
+public
     typedef _obb<T> Self;
     typedef Self& SelfRef;
     typedef const Self& SelfCRef;
@@ -12,9 +12,16 @@ public:
 
 protected:
     static bool clip(T fDenom, T fNumer, T& rfT0, T& rfT1) {
-        // Return value is 'true' if line segment intersects the current test
-        // plane.  Otherwise 'false' is returned in which case the line segment
-        // is entirely clipped.
+
+		/*******************
+		*
+		* Return value is 'true' if line segment intersects the current test
+        * plane.  Otherwise 'false' is returned in which case the line segment
+        * is entirely clipped.
+		* This a math part of X-ray.
+		* Calculates a CPU features,
+		*
+		********************/
 
         if (fDenom > 0.0f) {
             if (fNumer > fDenom * rfT1)
@@ -32,6 +39,7 @@ protected:
             return fNumer <= 0.0f;
         }
     }
+
     static bool intersect(const Tvector& start, const Tvector& dir, const Tvector& extent, T& rfT0,
                           T& rfT1) {
         T fSaveT0 = rfT0, fSaveT1 = rfT1;
@@ -57,11 +65,13 @@ public:
         m_halfsize.set(0, 0, 0);
         return *this;
     }
+
     IC SelfRef identity() {
         invalidate();
         m_halfsize.set(T(0.5), T(0.5), T(0.5));
         return *this;
     }
+
     IC void xform_get(Tmatrix& D) const {
         D.i.set(m_rotate.i);
         D._14_ = 0;
@@ -72,6 +82,7 @@ public:
         D.c.set(m_translate);
         D._44_ = 1;
     }
+
     IC SelfRef xform_set(const Tmatrix& S) {
         m_rotate.i.set(S.i);
         m_rotate.j.set(S.j);
@@ -79,6 +90,7 @@ public:
         m_translate.set(S.c);
         return *this;
     }
+
     IC void xform_full(Tmatrix& D) const {
         Tmatrix R, S;
         xform_get(R);
@@ -98,7 +110,7 @@ public:
     }
 
     IC bool intersect(const Tvector& start, const Tvector& dir, T& dist) const {
-        // convert ray to box coordinates
+        // Ñonvert ray to box coordinates
         Tvector kDiff;
         kDiff.sub(start, m_translate);
         Tvector kOrigin;

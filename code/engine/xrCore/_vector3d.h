@@ -15,7 +15,7 @@ struct _vector3 {
 
     T x, y, z;
 
-    // access operators
+	/******************* Acess operators ********************/
     ICF T& operator[](int i) { return *((T*)this + i); }
     ICF T& operator[](int i) const { return *((T*)this + i); }
 

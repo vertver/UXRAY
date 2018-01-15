@@ -2,18 +2,22 @@
 #define _INC_CPUID
 
 enum class CpuFeature : u32 {
-    Mmx = 0x0001,
-    Sse = 0x0002,
-    Sse2 = 0x0004,
-    _3dNow = 0x0008,
+	MMX = 1 << 0,					// other math type
+	MMXExt = 1 << 1,
+	MWait = 1 << 2,
+	HT = 1 << 3,
 
-    Sse3 = 0x0010,
-    Ssse3 = 0x0020,
-    Sse41 = 0x0040,
-    Sse42 = 0x0080,
+	SSE = 1 << 4,
+	SSE2 = 1 << 5,
+	SSE3 = 1 << 6,
+	SSSE3 = 1 << 7,
+	SSE41 = 1 << 8,
+	SSE4a = 1 << 9,
+	SSE42 = 1 << 10,
+	AVX = 1 << 11,	
 
-    MWait = 0x1000,
-    HT = 0x0200
+	AMD_3DNow = 1 << 17,
+	AMD_3DNowExt = 1 << 18
 };
 
 struct processor_info {

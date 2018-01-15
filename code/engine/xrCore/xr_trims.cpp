@@ -1,6 +1,5 @@
 #include "stdafx.h"
 
-#include <boost/algorithm/string/join.hpp>
 
 LPSTR _TrimLeft(LPSTR str) {
     LPSTR p = str;
@@ -270,5 +269,5 @@ LPCSTR _GetItem(LPCSTR src, int index, xr_string& dst, char separator, LPCSTR de
 }
 
 std::string _ListToSequence(const RStringVec& lst) {
-    return boost::algorithm::join(lst, ",");
+	return 0;
 }

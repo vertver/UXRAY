@@ -1,3 +1,10 @@
+/*******************
+*
+* This a math part of X-ray.
+* Calculates a CPU features, splines and threads.
+*
+********************/
+
 #include "stdafx.h"
 
 #include <process.h>
@@ -11,6 +18,9 @@
 #define MMNOJOY
 #include <mmsystem.h>
 
+
+/******************* CPU Power Info ********************/
+
 typedef struct _PROCESSOR_POWER_INFORMATION {
     ULONG Number;
     ULONG MaxMhz;
@@ -20,10 +30,15 @@ typedef struct _PROCESSOR_POWER_INFORMATION {
     ULONG CurrentIdleState;
 } PROCESSOR_POWER_INFORMATION, *PPROCESSOR_POWER_INFORMATION;
 
-// Initialized on startup
+
+
+
+/******************* Initialized on startup ********************/
+
 XRCORE_API Fmatrix Fidentity;
 XRCORE_API Dmatrix Didentity;
 XRCORE_API CRandom Random;
+
 
 #ifdef _M_AMD64
 
@@ -47,10 +62,11 @@ XRCORE_API void m64r() {
     _control87(_RC_NEAR, MCW_RC);
 }
 
+
 #else
 u16 getFPUsw() {
     u16 SW;
-    __asm fstcw SW;
+    __asm fstcw SW;	// Save state SW
     return SW;
 }
 
@@ -118,7 +134,12 @@ void initialize() {
 
     ::Random.seed(u32(CPU::GetCLK() % (1i64 << 32i64)));
 }
-} // namespace FPU
+} 
+
+
+
+
+/******************* Namespace CPU ********************/
 
 namespace CPU {
 XRCORE_API u64 qpc_freq = []{ 
@@ -141,7 +162,7 @@ XRCORE_API u64 QPC() {
 void Detect() {
     // General CPU identification
     if (!query_processor_info(&ID)) {
-        // Core.Fatal		("Fatal error: can't detect CPU/FPU.");
+        Msg("Fatal error: can't detect CPU/FPU.");
         abort();
     }
 }
@@ -150,40 +171,48 @@ void Detect() {
 
 bool g_initialize_cpu_called = false;
 
-//------------------------------------------------------------------------------------
+/******************* CPU Features ********************/
+
 void _initialize_cpu() {
     Msg("* Detected CPU: %s [%s], F%d/M%d/S%d, 'rdtsc'", CPU::ID.modelName,
         CPU::ID.vendor, CPU::ID.family, CPU::ID.model, CPU::ID.stepping);
 
     string256 features;
     xr_strcpy(features, sizeof(features), "RDTSC");
-    if (CPU::ID.hasFeature(CpuFeature::Mmx))
+
+	// Add the CPU Features
+    if (CPU::ID.hasFeature(CpuFeature::MMX))
         xr_strcat(features, ", MMX");
-    if (CPU::ID.hasFeature(CpuFeature::_3dNow))
+    if (CPU::ID.hasFeature(CpuFeature::AMD_3DNow))
         xr_strcat(features, ", 3DNow!");
-    if (CPU::ID.hasFeature(CpuFeature::Sse))
+    if (CPU::ID.hasFeature(CpuFeature::SSE))
         xr_strcat(features, ", SSE");
-    if (CPU::ID.hasFeature(CpuFeature::Sse2))
+    if (CPU::ID.hasFeature(CpuFeature::SSE2))
         xr_strcat(features, ", SSE2");
-    if (CPU::ID.hasFeature(CpuFeature::Sse3))
+    if (CPU::ID.hasFeature(CpuFeature::SSE3))
         xr_strcat(features, ", SSE3");
     if (CPU::ID.hasFeature(CpuFeature::MWait))
         xr_strcat(features, ", MONITOR/MWAIT");
-    if (CPU::ID.hasFeature(CpuFeature::Ssse3))
-        xr_strcat(features, ", SSSE3");
-    if (CPU::ID.hasFeature(CpuFeature::Sse41))
+    if (CPU::ID.hasFeature(CpuFeature::SSE41))
         xr_strcat(features, ", SSE4.1");
-    if (CPU::ID.hasFeature(CpuFeature::Sse42))
+    if (CPU::ID.hasFeature(CpuFeature::SSE42))
         xr_strcat(features, ", SSE4.2");
     if (CPU::ID.hasFeature(CpuFeature::HT))
         xr_strcat(features, ", HTT");
+	if (CPU::ID.hasFeature(CpuFeature::AVX))
+		xr_strcat(features, ", AVX");
+
+
 
     Msg("* CPU features: %s", features);
     Msg("* CPU cores/threads: %d/%d", CPU::ID.n_cores, CPU::ID.n_threads);
 
+
+	/******************* Types and other ********************/
+
     SYSTEM_INFO sysInfo;
     GetSystemInfo(&sysInfo);
-    const size_t cpusCount = sysInfo.dwNumberOfProcessors;
+    const size_t cpusCount = sysInfo.dwNumberOfProcessors;	// Number of cores
 
     xr_vector<PROCESSOR_POWER_INFORMATION> cpusInfo(cpusCount);
     CallNtPowerInformation(ProcessorInformation, nullptr, 0, cpusInfo.data(),
@@ -206,39 +235,69 @@ void _initialize_cpu() {
     g_initialize_cpu_called = true;
 }
 
-// per-thread initialization
+/******************* Per-thread Initialization********************/
+
 #include <xmmintrin.h>
 #define _MM_DENORMALS_ZERO_MASK 0x0040
 #define _MM_DENORMALS_ZERO_ON 0x0040
 #define _MM_FLUSH_ZERO_MASK 0x8000
 #define _MM_FLUSH_ZERO_ON 0x8000
+#define _MM_FLUSH_ZERO_OFF 0xffff
 #define _MM_SET_FLUSH_ZERO_MODE(mode) _mm_setcsr((_mm_getcsr() & ~_MM_FLUSH_ZERO_MASK) | (mode))
 #define _MM_SET_DENORMALS_ZERO_MODE(mode) \
     _mm_setcsr((_mm_getcsr() & ~_MM_DENORMALS_ZERO_MASK) | (mode))
+
 static BOOL _denormals_are_zero_supported = TRUE;
 extern void __cdecl _terminate();
-void debug_on_thread_spawn();
+
+void debug_on_thread_spawn() {
+	Msg("Debug on thread spawn");
+};
+
+
 
 void _initialize_cpu_thread() {
+	// Initializing a CPU Thread
     debug_on_thread_spawn();
+
 #ifndef XRCORE_STATIC
-    // fpu & sse
+
+// FPU and SSe
     FPU::m24r();
 #endif // XRCORE_STATIC
-    if (CPU::ID.hasFeature(CpuFeature::Sse)) {
-        //_mm_setcsr ( _mm_getcsr() | (_MM_FLUSH_ZERO_ON+_MM_DENORMALS_ZERO_ON) );
+
+
+
+
+/******************* 
+*
+* Describe to deactivate denormals if the CPU didn't support it
+*
+********************/
+
+    if (CPU::ID.hasFeature(CpuFeature::SSE)) {	
+			       
         _MM_SET_FLUSH_ZERO_MODE(_MM_FLUSH_ZERO_ON);
         if (_denormals_are_zero_supported) {
             __try {
                 _MM_SET_DENORMALS_ZERO_MODE(_MM_DENORMALS_ZERO_ON);
-            } __except (EXCEPTION_EXECUTE_HANDLER) {
+            } 
+			__except (EXCEPTION_EXECUTE_HANDLER) {
                 _denormals_are_zero_supported = FALSE;
             }
+			
         }
     }
+
+	if (!CPU::ID.hasFeature(CpuFeature::AVX)) {
+		
+				Msg("This CPU didn't have a AVX features.", 
+					"May be a some problems with performance.");
+	}
 }
 
-// threading API
+/******************* Threading API ********************/
+
 #pragma pack(push, 8)
 struct THREAD_NAME {
     DWORD dwType;
@@ -265,17 +324,18 @@ struct THREAD_STARTUP {
     void* args;
 };
 void __cdecl thread_entry(void* _params) {
-    // initialize
+													// Initializing
     THREAD_STARTUP* startup = (THREAD_STARTUP*)_params;
     thread_name(startup->name);
     thread_t* entry = startup->entry;
     void* arglist = startup->args;
     xr_delete(startup);
     _initialize_cpu_thread();
-
-    // call
+													// Call the arglist
     entry(arglist);
 }
+
+/******************* Spawning a thread ********************/
 
 void thread_spawn(thread_t* entry, const char* name, unsigned stack, void* arglist) {
     Debug._initialize();
@@ -287,15 +347,18 @@ void thread_spawn(thread_t* entry, const char* name, unsigned stack, void* argli
     _beginthread(thread_entry, stack, startup);
 }
 
+/******************* Splines ********************/
+
 void spline1(float t, Fvector* p, Fvector* ret) {
-    float t2 = t * t;
-    float t3 = t2 * t;
+
+    float t2 = t * t;							// Thread in square
+    float t3 = t2 * t;							// in cube
     float m[4];
 
     ret->x = 0.0f;
     ret->y = 0.0f;
     ret->z = 0.0f;
-    m[0] = (0.5f * ((-1.0f * t3) + (2.0f * t2) + (-1.0f * t)));
+    m[0] = (0.5f * ((-1.0f * t3) + (2.0f * t2) + (-1.0f * t)));	
     m[1] = (0.5f * ((3.0f * t3) + (-5.0f * t2) + (0.0f * t) + 2.0f));
     m[2] = (0.5f * ((-3.0f * t3) + (4.0f * t2) + (1.0f * t)));
     m[3] = (0.5f * ((1.0f * t3) + (-1.0f * t2) + (0.0f * t)));

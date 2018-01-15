@@ -16,6 +16,8 @@
 // static lookup table for unit vector3 decompression
 float pvUVAdjustment[0x2000];
 
+/******************* Initializing Statics ********************/
+
 void pvInitializeStatics(void) {
     for (int idx = 0; idx < 0x2000; idx++) {
         long xbits = idx >> 7;
@@ -37,6 +39,8 @@ void pvInitializeStatics(void) {
     }
 }
 
+/******************* Compress float ********************/
+
 u16 pvCompress(const Fvector& vec) {
     // save copy
     Fvector tmp = vec;
@@ -57,14 +61,18 @@ u16 pvCompress(const Fvector& vec) {
         set_positive(tmp.z);
     }
 
-    // project the normal onto the plane that goes through
-    // X0=(1,0,0),Y0=(0,1,0),Z0=(0,0,1).
-
-    // on that plane we choose an (projective!) coordinate system
-    // such that X0->(0,0), Y0->(126,0), Z0->(0,126),(0,0,0)->Infinity
-
-    // a little slower... old pack was 4 multiplies and 2 adds.
-    // This is 2 multiplies, 2 adds, and a divide....
+	/*******************
+	*
+	* Project the normal onto the plane that goes through
+    * X0=(1,0,0),Y0=(0,1,0),Z0=(0,0,1).
+    * On that plane we choose an (projective!) coordinate system
+    * such that X0->(0,0), Y0->(126,0), Z0->(0,126),(0,0,0)->Infinity
+    * a little slower... Old pack was 4 multiplies and 2 adds.
+    * This is 2 multiplies, 2 adds, and a divide... This a math part of X-ray.
+	* Calculates a CPU features, splines and threads.
+	*
+	********************/
+    
     float w = 126.0f / (tmp.x + tmp.y + tmp.z);
     int xbits = iFloor(tmp.x * w);
     int ybits = iFloor(tmp.y * w);
@@ -76,32 +84,49 @@ u16 pvCompress(const Fvector& vec) {
     VERIFY( ybits >= 0   );
     */
 
-    // Now we can be sure that 0<=xp<=126, 0<=yp<=126, 0<=xp+yp<=126
 
-    // however for the sampling we want to transform this triangle
-    // into a rectangle.
+	/*******************
+	*
+	* Now we can be sure that 0<=xp<=126, 0<=yp<=126, 0<=xp+yp<=126
+    * however for the sampling we want to transform this triangle
+    * into a rectangle.This a math part of X-ray.
+	*
+	********************/
+   
     if (xbits >= 64) {
         xbits = 127 - xbits;
         ybits = 127 - ybits;
     }
 
-    // now we that have xp in the range (0,127) and yp in the range (0,63),
-    // we can pack all the bits together
+	/*******************
+	*
+	* now we that have xp in the range (0,127) and yp in the range (0,63),
+    * we can pack all the bits together
+	*
+	********************/
+
     mVec |= (xbits << 7);
     mVec |= ybits;
 
     return mVec;
 }
 
-void pvDecompress(Fvector& vec, u16 mVec) {
-    // if we do a straightforward backward transform
-    // we will get points on the plane X0,Y0,Z0
-    // however we need points on a sphere that goes through these points.
-    // therefore we need to adjust x,y,z so that x^2+y^2+z^2=1
+/******************* Decompress float ********************/
 
-    // by normalizing the vector3. We have already precalculated the amount
-    // by which we need to scale, so all we do is a table lookup and a
-    // multiplication
+void pvDecompress(Fvector& vec, u16 mVec) {
+
+	/*******************
+	*
+	* if we do a straightforward backward transform
+    * we will get points on the plane X0,Y0,Z0
+    * however we need points on a sphere that goes through these points.
+    * therefore we need to adjust x,y,z so that x^2+y^2+z^2=1
+    * by normalizing the vector3. We have already precalculated the amount
+    * by which we need to scale, so all we do is a table lookup and a
+    * multiplication
+	*
+	********************/
+    
 
     // get the x and y bits
     int xbits = ((mVec & pvTOP_MASK) >> 7);

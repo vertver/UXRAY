@@ -16,10 +16,15 @@ int xr_strcmp(const char* S1, const char* S2) {
 char* timestamp(string64& dest) {
     string64 temp;
 
-    /* Set time zone from TZ environment variable. If TZ is not set,
-     * the operating system is queried to obtain the default value
-     * for the variable.
-     */
+
+	/*******************
+	*
+	* Set time zone from TZ environment variable. If TZ is not set,
+    * the operating system is queried to obtain the default value
+    * for the variable.
+	*
+	********************/
+
     _tzset();
     u32 it;
 

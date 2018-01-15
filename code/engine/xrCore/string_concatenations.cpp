@@ -53,10 +53,16 @@ static inline void process(LPSTR& i, LPCSTR e, u32 const index, LPCSTR (&strings
 
 int stack_overflow_exception_filter(int exception_code) {
     if (exception_code == EXCEPTION_STACK_OVERFLOW) {
-        // Do not call _resetstkoflw here, because
-        // at this point, the stack is not yet unwound.
-        // Instead, signal that the handler (the __except block)
-        // is to be executed.
+
+		/*******************
+		*
+		* Do not call _resetstkoflw here, because
+        * at this point, the stack is not yet unwound.
+        * Instead, signal that the handler (the __except block)
+        * is to be executed.f defs, limits and strings.
+		*
+		********************/
+
         return EXCEPTION_EXECUTE_HANDLER;
     } else
         return EXCEPTION_CONTINUE_SEARCH;
