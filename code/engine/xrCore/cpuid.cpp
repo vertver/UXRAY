@@ -185,7 +185,7 @@ unsigned int query_processor_info(processor_info* pinfo) {
 
 	/*******************
 	*
-	* count the number of threads (logical and physical)
+	* count the number of threads 
 	* (logical and physical)
 	*
 	********************/

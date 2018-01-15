@@ -377,28 +377,44 @@ void CRender::OnFrame() {
     }
 }
 
+BOOL CRender::is_sun()
+ {
+	if (o.sunstatic) {
+		return FALSE;
+	}
+	Fcolor sun_color = ((light*)Lights.sun_adapted._get())->color;
+	return (ps_r2_ls_flags.test(R2FLAG_SUN) && (u_diffuse2s(sun_color.r, sun_color.g, sun_color.b)>EPS));
+	}
+
 // Implementation
 IRender_ObjectSpecific* CRender::ros_create(IRenderable* parent) { return xr_new<CROS_impl>(); }
+
 void CRender::ros_destroy(IRender_ObjectSpecific*& p) { xr_delete(p); }
+
 IRenderVisual* CRender::model_Create(LPCSTR name, IReader* data) {
     return Models->Create(name, data);
 }
+
 IRenderVisual* CRender::model_CreateChild(LPCSTR name, IReader* data) {
     return Models->CreateChild(name, data);
 }
+
 IRenderVisual* CRender::model_Duplicate(IRenderVisual* V) {
     return Models->Instance_Duplicate((dxRender_Visual*)V);
 }
+
 void CRender::model_Delete(IRenderVisual*& V, BOOL bDiscard) {
     dxRender_Visual* pVisual = (dxRender_Visual*)V;
     Models->Delete(pVisual, bDiscard);
     V = 0;
 }
+
 IRender_DetailModel* CRender::model_CreateDM(IReader* F) {
     CDetail* D = xr_new<CDetail>();
     D->Load(F);
     return D;
 }
+
 void CRender::model_Delete(IRender_DetailModel*& F) {
     if (F) {
         CDetail* D = (CDetail*)F;
@@ -407,11 +423,13 @@ void CRender::model_Delete(IRender_DetailModel*& F) {
         F = NULL;
     }
 }
+
 IRenderVisual* CRender::model_CreatePE(LPCSTR name) {
     PS::CPEDef* SE = PSLibrary.FindPED(name);
     R_ASSERT3(SE, "Particle effect doesn't exist", name);
     return Models->CreatePE(SE);
 }
+
 IRenderVisual* CRender::model_CreateParticles(LPCSTR name) {
     PS::CPEDef* SE = PSLibrary.FindPED(name);
     if (SE)
@@ -422,6 +440,7 @@ IRenderVisual* CRender::model_CreateParticles(LPCSTR name) {
         return Models->CreatePG(SG);
     }
 }
+
 void CRender::models_Prefetch() { Models->Prefetch(); }
 void CRender::models_Clear(BOOL b_complete) { Models->ClearPool(b_complete); }
 

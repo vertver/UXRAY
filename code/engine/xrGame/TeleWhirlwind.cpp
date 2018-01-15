@@ -40,7 +40,7 @@ void CTeleWhirlwind::set_throw_power(float throw_pow) { m_throw_power = throw_po
 
 void CTeleWhirlwind::draw_out_impact(Fvector& dir, float& val) {
     VERIFY2(m_saved_impacts.size(), "NO IMPACTS ADDED!");
-
+	if (0 == m_saved_impacts.size()) return;		// to save impacts
     dir.set(m_saved_impacts[0].force);
     val = dir.magnitude();
     if (!fis_zero(val))
@@ -53,7 +53,7 @@ static bool RemovePred(CTelekineticObject* tele_object) {
 }
 
 void CTeleWhirlwind::clear_notrelevant() {
-    //убрать все объеты со старыми параметрами
+	// Delete all objects with old parameteres
     objects.erase(std::remove_if(objects.begin(), objects.end(), &RemovePred), objects.end());
 }
 

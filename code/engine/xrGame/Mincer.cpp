@@ -98,9 +98,9 @@ void CMincer ::ThrowInCenter(Fvector& C) {
 void CMincer ::Center(Fvector& C) const { C.set(Position()); }
 
 void CMincer::NotificateDestroy(CPHDestroyableNotificate* dn) {
-    Fvector dir;
-    float power = 0.0f; // can change
-    float impulse;
+	Fvector dir = { 0,0,0 };	// Massive with data
+    float power = 0.0f;			// Changedable
+    float impulse = 0;			// Cause float can't be empty
     // if(!m_telekinetics.has_impacts()) return;
 
     // CObject* obj=Level().Objects.net_Find(id);

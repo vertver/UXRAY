@@ -16,6 +16,7 @@ struct _vector3 {
     T x, y, z;
 
 	/******************* Acess operators ********************/
+
     ICF T& operator[](int i) { return *((T*)this + i); }
     ICF T& operator[](int i) const { return *((T*)this + i); }
 
@@ -25,24 +26,28 @@ struct _vector3 {
         z = _z;
         return *this;
     };
+
     ICF SelfRef set(const _vector3<float>& v) {
         x = T(v.x);
         y = T(v.y);
         z = T(v.z);
         return *this;
     };
+
     ICF SelfRef set(const _vector3<double>& v) {
         x = T(v.x);
         y = T(v.y);
         z = T(v.z);
         return *this;
     };
+
     ICF SelfRef set(float* p) {
         x = p[0];
         y = p[1];
         z = p[2];
         return *this;
     };
+
     ICF SelfRef set(double* p) {
         x = p[0];
         y = p[1];
@@ -56,18 +61,21 @@ struct _vector3 {
         z += v.z;
         return *this;
     };
+
     ICF SelfRef add(T s) {
         x += s;
         y += s;
         z += s;
         return *this;
     };
+
     ICF SelfRef add(const Self& a, const Self& v) {
         x = a.x + v.x;
         y = a.y + v.y;
         z = a.z + v.z;
         return *this;
     };
+
     ICF SelfRef add(const Self& a, T s) {
         x = a.x + s;
         y = a.y + s;
@@ -81,18 +89,21 @@ struct _vector3 {
         z -= v.z;
         return *this;
     };
+
     ICF SelfRef sub(T s) {
         x -= s;
         y -= s;
         z -= s;
         return *this;
     };
+
     ICF SelfRef sub(const Self& a, const Self& v) {
         x = a.x - v.x;
         y = a.y - v.y;
         z = a.z - v.z;
         return *this;
     };
+
     ICF SelfRef sub(const Self& a, T s) {
         x = a.x - s;
         y = a.y - s;
@@ -106,18 +117,21 @@ struct _vector3 {
         z *= v.z;
         return *this;
     };
+
     ICF SelfRef mul(T s) {
         x *= s;
         y *= s;
         z *= s;
         return *this;
     };
+
     ICF SelfRef mul(const Self& a, const Self& v) {
         x = a.x * v.x;
         y = a.y * v.y;
         z = a.z * v.z;
         return *this;
     };
+
     ICF SelfRef mul(const Self& a, T s) {
         x = a.x * s;
         y = a.y * s;
@@ -137,12 +151,14 @@ struct _vector3 {
         z /= s;
         return *this;
     };
+
     ICF SelfRef div(const Self& a, const Self& v) {
         x = a.x / v.x;
         y = a.y / v.y;
         z = a.z / v.z;
         return *this;
     };
+
     ICF SelfRef div(const Self& a, T s) {
         x = a.x / s;
         y = a.y / s;
@@ -156,6 +172,7 @@ struct _vector3 {
         z = -z;
         return *this;
     }
+
     IC SelfRef invert(const Self& a) {
         x = -a.x;
         y = -a.y;
@@ -169,18 +186,21 @@ struct _vector3 {
         z = std::min(v1.z, v2.z);
         return *this;
     }
+
     IC SelfRef min(const Self& v) {
         x = std::min(x, v.x);
         y = std::min(y, v.y);
         z = std::min(z, v.z);
         return *this;
     }
+
     IC SelfRef max(const Self& v1, const Self& v2) {
         x = std::max(v1.x, v2.x);
         y = std::max(v1.y, v2.y);
         z = std::max(v1.z, v2.z);
         return *this;
     }
+
     IC SelfRef max(const Self& v) {
         x = std::max(x, v.x);
         y = std::max(y, v.y);
@@ -194,6 +214,7 @@ struct _vector3 {
         z = _abs(v.z);
         return *this;
     }
+
     ICF BOOL similar(const Self& v, T E = EPS_L) const {
         return _abs(x - v.x) < E && _abs(y - v.y) < E && _abs(z - v.z) < E;
     };
@@ -254,18 +275,21 @@ struct _vector3 {
         z = v * z + inv * p.z;
         return *this;
     }
+
     IC SelfRef average(const Self& p) {
         x = (x + p.x) * 0.5f;
         y = (y + p.y) * 0.5f;
         z = (z + p.z) * 0.5f;
         return *this;
     }
+
     IC SelfRef average(const Self& p1, const Self& p2) {
         x = (p1.x + p2.x) * 0.5f;
         y = (p1.y + p2.y) * 0.5f;
         z = (p1.z + p2.z) * 0.5f;
         return *this;
     }
+
     IC SelfRef lerp(const Self& p1, const Self& p2, T t) {
         T invt = 1.f - t;
         x = p1.x * invt + p2.x * t;
@@ -281,18 +305,21 @@ struct _vector3 {
         z += d.z * m;
         return *this;
     }
+
     IC SelfRef mad(const Self& p, const Self& d, T m) {
         x = p.x + d.x * m;
         y = p.y + d.y * m;
         z = p.z + d.z * m;
         return *this;
     }
+
     IC SelfRef mad(const Self& d, const Self& s) {
         x += d.x * s.x;
         y += d.y * s.y;
         z += d.z * s.z;
         return *this;
     }
+
     IC SelfRef mad(const Self& p, const Self& d, const Self& s) {
         x = p.x + d.x * s.x;
         y = p.y + d.y * s.y;
