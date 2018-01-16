@@ -240,7 +240,8 @@ public:
     T& operator()() { return *ptr; }
 };
 
-// ********************************************** The Core definition
+/******************* The Core definition ********************/
+
 class XRCORE_API xrCore {
 public:
     string64 ApplicationName;

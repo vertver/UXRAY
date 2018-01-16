@@ -1,8 +1,9 @@
 ////////////////////////////////////////////////////////////////////////////
 //	Module 		: intrusive_ptr.h
 //	Created 	: 30.07.2004
-//  Modified 	: 30.07.2004
+//  Modified 	: 15.01.2018
 //	Author		: Dmitriy Iassenev
+//  Mod			: Anton Vertver
 //	Description : Intrusive pointer template
 ////////////////////////////////////////////////////////////////////////////
 
@@ -11,22 +12,26 @@
 struct intrusive_base {
     intrusive_base() XR_NOEXCEPT : m_ref_count(0) {}
 
+	u32 m_ref_count;
+
     template <typename T>
-    void release(T* object) XR_NOEXCEPT {
+    IC void release(T* object) XR_NOEXCEPT {
         try {
+
             xr_delete(object);
-        } catch (...) {
+
+        }
+		catch (...) {
+
         }
     }
 
-    void acquire() XR_NOEXCEPT { ++m_ref_count; }
-
-    bool release() XR_NOEXCEPT { return --m_ref_count == 0; }
-
-    bool released() const XR_NOEXCEPT { return m_ref_count == 0; }
+    //void acquire() XR_NOEXCEPT { ++m_ref_count; }						Not needy for newer VS 15.5
+    //bool release() XR_NOEXCEPT { return --m_ref_count == 0; }
+    //bool released() const XR_NOEXCEPT { return m_ref_count == 0; }
 
 private:
-    std::size_t m_ref_count;
+    // std::size_t m_ref_count;											std::size_t m_ref_count > u32 m_ref_count
 };
 
 template <typename ObjectType, typename BaseType = intrusive_base>
@@ -50,6 +55,10 @@ protected:
     }
 
 public:
+	IC operator unspecified_bool_type() const { 
+		return (!m_object ? 0 : &intrusive_ptr::get); 
+	}
+
     intrusive_ptr() XR_NOEXCEPT : m_object(nullptr) {}
 
     intrusive_ptr(object_type* rhs) XR_NOEXCEPT : m_object(rhs) {

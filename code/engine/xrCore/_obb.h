@@ -3,7 +3,7 @@
 
 template <class T>
 struct _obb {
-public
+public:
     typedef _obb<T> Self;
     typedef Self& SelfRef;
     typedef const Self& SelfCRef;
